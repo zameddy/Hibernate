@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-
+//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="metier">
+	<class name="Reunion" table="REUNIONS">
+		<id name="idReunion" column="ID_REUNION">
+			<generator class="native"></generator>
+		</id>
+		<property name="titre" column="TITRE"></property>
+		<property name="dateReunion" column="DATE_REUNION"></property>
+		<set name="personnes" table="PERS_REUNIONS" inverse="true">
+			<key column="ID_REUNION" />
+			<many-to-many column="ID_PERSONNE" class="metier.Personne"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-
+//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="metier">
+	<class name="Personne" table="PERSONNES">
+		<id name="idPersonne" column="ID_PERSONNE">
+			<generator class="native"></generator>
+		</id>
+		<property name="nomPersonne"></property>
+		<property name="prenomPersonne"></property>
+		<property name="age"></property>
+		<set name="reunions" table="PERS_REUNIONS">
+			<key column="ID_PERSONNE"></key>
+			<many-to-many class="Reunion" column="ID_REUNION" >
+			</many-to-many>
+		</set>
+	</class>
+</hibernate-mapping>
