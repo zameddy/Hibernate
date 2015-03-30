@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-
+//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="metier">
+	<class name="Compte" table="COMPTES">
+		<id name="numCompte" column="NUM_COMPTE"></id>
+		<discriminator column="TYPE" type="string" length="2">
+		</discriminator>
+		<property name="dateCreation"></property>
+		<property name="solde"></property>
+		<many-to-one name="client" column="CODE_CLI"></many-to-one>
+		<set name="operations" inverse="true" lazy="true">
+			<key column="NUM_COMPTE"></key>
+			<one-to-many class="Operation" />
+		</set>
+		<subclass name="CompteCourant" discriminator-value="CC">
+			<property name="decouvert"></property>
+		</subclass>
+		<subclass name="CompteEpargne" discriminator-value="CE">
+			<property name="taux"></property>
+		</subclass>
+	</class>
+</hibernate-mapping>

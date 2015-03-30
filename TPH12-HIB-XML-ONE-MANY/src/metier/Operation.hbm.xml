@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-
+//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="metier">
+	<class name="Operation" table="OPERATIONS">
+		<id name="numOperation" column="NUM_OP">
+			<generator class="native"></generator>
+		</id>
+		<property name="dateOperation"></property>
+		<property name="mtVersement"></property>
+		<property name="mtRetrait"></property>
+		<many-to-one name="compte" column="NUM_COMPTE"></many-to-one>
+	</class>
+</hibernate-mapping>
