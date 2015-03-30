@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/mysql-connector-java-5.0.5-bin.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/TP2_Modele_Partiel/libs/slf4j-simple-1.5.8.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-core-4.1.10.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-entitymanager-4.1.10.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jboss-logging-3.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.0.5-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

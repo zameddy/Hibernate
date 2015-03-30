@@ -1,0 +1,1561 @@
+22:33:23,140  INFO Environment:514 - Hibernate 3.2.4.sp1
+22:33:23,156  INFO Environment:547 - hibernate.properties not found
+22:33:23,156  INFO Environment:681 - Bytecode provider name : cglib
+22:33:23,171  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+22:33:23,250  INFO Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+22:33:23,250  INFO Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+22:33:23,328 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+22:33:23,328 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+22:33:23,328 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+22:33:23,375 ERROR XMLHelper:61 - Error parsing XML: /hibernate.cfg.xml(12) The content of elements must consist of well-formed character data or markup.
+22:34:19,625  INFO Environment:514 - Hibernate 3.2.4.sp1
+22:34:19,640  INFO Environment:547 - hibernate.properties not found
+22:34:19,640  INFO Environment:681 - Bytecode provider name : cglib
+22:34:19,656  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+22:34:19,734  INFO Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+22:34:19,734  INFO Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+22:34:19,812 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+22:34:19,812 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+22:34:19,812 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+22:34:19,859 ERROR XMLHelper:61 - Error parsing XML: /hibernate.cfg.xml(12) The content of elements must consist of well-formed character data or markup.
+22:35:17,281  INFO Environment:514 - Hibernate 3.2.4.sp1
+22:35:17,296  INFO Environment:547 - hibernate.properties not found
+22:35:17,296  INFO Environment:681 - Bytecode provider name : cglib
+22:35:17,312  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+22:35:17,390  INFO Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+22:35:17,390  INFO Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+22:35:17,468 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+22:35:17,468 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+22:35:17,468 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+22:35:17,515 DEBUG Configuration:1387 - hibernate.connection.driver_class=org.hsqldb.jdbcDriver
+22:35:17,515 DEBUG Configuration:1387 - hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB
+22:35:17,515 DEBUG Configuration:1387 - hibernate.connection.username=sa
+22:35:17,515 DEBUG Configuration:1387 - hibernate.connection.password=
+22:35:17,515 DEBUG Configuration:1387 - dialect=org.hibernate.dialect.HSQLDialect
+22:35:17,515 DEBUG Configuration:1387 - hibernate.c3p0.min_size=5
+22:35:17,515 DEBUG Configuration:1387 - hibernate.c3p0.max_size=20
+22:35:17,515 DEBUG Configuration:1387 - hibernate.c3p0.timeout=300
+22:35:17,515 DEBUG Configuration:1387 - hibernate.c3p0.max_statements=50
+22:35:17,515 DEBUG Configuration:1387 - hibernate.c3p0.idle_test_period=3000
+22:35:17,531 DEBUG Configuration:1387 - show_sql=true
+22:35:17,531 DEBUG Configuration:1387 - format_sql=true
+22:35:17,531 DEBUG Configuration:1586 - null<-org.dom4j.tree.DefaultAttribute@109fd93 [Attribute: name resource value "igpde/gestion/domaine/Service.hbm.xml"]
+22:35:17,531  INFO Configuration:553 - Reading mappings from resource : igpde/gestion/domaine/Service.hbm.xml
+22:35:17,531 DEBUG DTDEntityResolver:38 - trying to resolve system-id [file:///C:/stagehibernate/solutions/TP1_Service/hibernate-mapping-3.0.dtd]
+22:35:17,734  INFO HbmBinder:300 - Mapping class: igpde.gestion.domaine.Service -> Services
+22:35:17,750 DEBUG HbmBinder:1270 - Mapped property: id -> id
+22:35:17,765 DEBUG HbmBinder:1270 - Mapped property: libelle -> libelle
+22:35:17,765 DEBUG HbmBinder:1270 - Mapped property: interlocuteur -> interlocuteur
+22:35:17,765  INFO Configuration:1541 - Configured SessionFactory: null
+22:35:17,765 DEBUG Configuration:1542 - properties: {hibernate.connection.password=, java.runtime.name=Java(TM) 2 Runtime Environment, Standard Edition, sun.boot.library.path=C:\Program Files\Java\jre1.5.0_11\bin, java.vm.version=1.5.0_11-b03, hibernate.connection.username=sa, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 2, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\stagehibernate\solutions\TP1_Service, java.runtime.version=1.5.0_11-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.c3p0.max_statements=50, java.endorsed.dirs=C:\Program Files\Java\jre1.5.0_11\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\DOCUME~1\metienne\LOCALS~1\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows XP, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jre1.5.0_11\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\cvsnt;C:\Program Files\UltraEdit-32;C:\Program Files\Rational\common;"C:\Program Files\Zone Labs\ZoneAlarm\MailFrontier";, java.specification.name=Java Platform API Specification, java.class.version=49.0, sun.management.compiler=HotSpot Client Compiler, os.version=5.1, user.home=C:\Documents and Settings\metienne, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.5, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, show_sql=true, user.name=metienne, java.class.path=C:\stagehibernate\solutions\TP1_Service\bin;C:\stagehibernate\hsqldb\lib\hsqldb.jar;C:\ide_java\eclipse\plugins\org.junit_3.8.1\junit.jar;C:\stagehibernate\hibernate-3.2\lib\dom4j-1.6.1.jar;C:\stagehibernate\hibernate-3.2\lib\ehcache-1.2.3.jar;C:\stagehibernate\hibernate-3.2\lib\jta.jar;C:\stagehibernate\hibernate-3.2\lib\log4j-1.2.11.jar;C:\stagehibernate\hibernate-3.2\lib\antlr-2.7.6.jar;C:\stagehibernate\hibernate-3.2\lib\asm.jar;C:\stagehibernate\hibernate-3.2\lib\asm-attrs.jar;C:\stagehibernate\hibernate-3.2\lib\c3p0-0.9.1.jar;C:\stagehibernate\hibernate-3.2\lib\cglib-2.1.3.jar;C:\stagehibernate\hibernate-3.2\lib\commons-collections-2.1.1.jar;C:\stagehibernate\hibernate-3.2\lib\commons-logging-1.0.4.jar;C:\stagehibernate\hibernate-3.2\hibernate3.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit_3.2.1.r321_v20060810/junitsupport.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit.runtime_3.2.1.r321_v20060721/junitruntime.jar, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=C:\Program Files\Java\jre1.5.0_11, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.HSQLDialect, hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB, user.language=fr, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=20, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.5.0_11, java.ext.dirs=C:\Program Files\Java\jre1.5.0_11\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.5.0_11\lib\rt.jar;C:\Program Files\Java\jre1.5.0_11\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_11\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_11\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_11\lib\jce.jar;C:\Program Files\Java\jre1.5.0_11\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_11\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.HSQLDialect, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+22:35:17,765 DEBUG Configuration:1285 - Preparing to build session factory with filters : {}
+22:35:17,765 DEBUG Configuration:1120 - processing extends queue
+22:35:17,765 DEBUG Configuration:1124 - processing collection mappings
+22:35:17,765 DEBUG Configuration:1135 - processing native query and ResultSetMapping mappings
+22:35:17,765 DEBUG Configuration:1143 - processing association property references
+22:35:17,765 DEBUG Configuration:1165 - processing foreign key constraints
+22:35:17,859  INFO C3P0ConnectionProvider:81 - C3P0 using driver: org.hsqldb.jdbcDriver at URL: jdbc:hsqldb:hsql://localhost/igpdeDB
+22:35:17,859  INFO C3P0ConnectionProvider:82 - Connection properties: {user=sa, password=****}
+22:35:17,859  INFO C3P0ConnectionProvider:85 - autocommit mode: false
+22:35:17,890  INFO MLog:80 - MLog clients using log4j logging.
+22:35:18,343  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+22:35:18,453  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@41e33a76 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9d6eca0d [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1zw7narjakh1puxarp|1d6a56e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@9a09b7bd [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1zw7narjakh1puxarp|1f78040, jdbcUrl -> jdbc:hsqldb:hsql://localhost/igpdeDB, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1zw7narjakh1puxarp|4ee70b, numHelperThreads -> 3 ]
+22:35:18,734  INFO SettingsFactory:89 - RDBMS: HSQL Database Engine, version: 1.8.0
+22:35:18,750  INFO SettingsFactory:90 - JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+22:35:18,781  INFO Dialect:152 - Using dialect: org.hibernate.dialect.HSQLDialect
+22:35:18,812  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+22:35:18,812  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+22:35:18,812  INFO SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+22:35:18,812  INFO SettingsFactory:147 - Automatic session close at end of transaction: disabled
+22:35:18,812  INFO SettingsFactory:154 - JDBC batch size: 15
+22:35:18,812  INFO SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+22:35:18,812  INFO SettingsFactory:162 - Scrollable result sets: enabled
+22:35:18,812 DEBUG SettingsFactory:166 - Wrap result sets: disabled
+22:35:18,812  INFO SettingsFactory:170 - JDBC3 getGeneratedKeys(): disabled
+22:35:18,828  INFO SettingsFactory:178 - Connection release mode: auto
+22:35:18,828  INFO SettingsFactory:205 - Default batch fetch size: 1
+22:35:18,828  INFO SettingsFactory:209 - Generate SQL with comments: disabled
+22:35:18,828  INFO SettingsFactory:213 - Order SQL updates by primary key: disabled
+22:35:18,828  INFO SettingsFactory:217 - Order SQL inserts for batching: disabled
+22:35:18,828  INFO SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+22:35:18,828  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+22:35:18,828  INFO SettingsFactory:225 - Query language substitutions: {}
+22:35:18,828  INFO SettingsFactory:230 - JPA-QL strict compliance: disabled
+22:35:18,828  INFO SettingsFactory:235 - Second-level cache: enabled
+22:35:18,828  INFO SettingsFactory:239 - Query cache: disabled
+22:35:18,828  INFO SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+22:35:18,828  INFO SettingsFactory:254 - Optimize cache for minimal puts: disabled
+22:35:18,828  INFO SettingsFactory:263 - Structured second-level cache entries: disabled
+22:35:18,828 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+22:35:18,843  INFO SettingsFactory:283 - Echoing all SQL to stdout
+22:35:18,843  INFO SettingsFactory:290 - Statistics: disabled
+22:35:18,843  INFO SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+22:35:18,843  INFO SettingsFactory:309 - Default entity-mode: pojo
+22:35:18,843  INFO SettingsFactory:313 - Named query checking : enabled
+22:35:18,875  INFO SessionFactoryImpl:161 - building session factory
+22:35:18,875 DEBUG SessionFactoryImpl:173 - Session factory constructed with filter configurations : {}
+22:35:18,890 DEBUG SessionFactoryImpl:177 - instantiating session factory with properties: {java.runtime.name=Java(TM) 2 Runtime Environment, Standard Edition, hibernate.connection.password=, sun.boot.library.path=C:\Program Files\Java\jre1.5.0_11\bin, java.vm.version=1.5.0_11-b03, hibernate.connection.username=sa, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 2, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\stagehibernate\solutions\TP1_Service, java.runtime.version=1.5.0_11-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre1.5.0_11\lib\endorsed, os.arch=x86, hibernate.c3p0.max_statements=50, java.io.tmpdir=C:\DOCUME~1\metienne\LOCALS~1\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows XP, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jre1.5.0_11\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\cvsnt;C:\Program Files\UltraEdit-32;C:\Program Files\Rational\common;"C:\Program Files\Zone Labs\ZoneAlarm\MailFrontier";, java.specification.name=Java Platform API Specification, java.class.version=49.0, sun.management.compiler=HotSpot Client Compiler, os.version=5.1, user.home=C:\Documents and Settings\metienne, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.5, file.encoding=Cp1252, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, show_sql=true, java.class.path=C:\stagehibernate\solutions\TP1_Service\bin;C:\stagehibernate\hsqldb\lib\hsqldb.jar;C:\ide_java\eclipse\plugins\org.junit_3.8.1\junit.jar;C:\stagehibernate\hibernate-3.2\lib\dom4j-1.6.1.jar;C:\stagehibernate\hibernate-3.2\lib\ehcache-1.2.3.jar;C:\stagehibernate\hibernate-3.2\lib\jta.jar;C:\stagehibernate\hibernate-3.2\lib\log4j-1.2.11.jar;C:\stagehibernate\hibernate-3.2\lib\antlr-2.7.6.jar;C:\stagehibernate\hibernate-3.2\lib\asm.jar;C:\stagehibernate\hibernate-3.2\lib\asm-attrs.jar;C:\stagehibernate\hibernate-3.2\lib\c3p0-0.9.1.jar;C:\stagehibernate\hibernate-3.2\lib\cglib-2.1.3.jar;C:\stagehibernate\hibernate-3.2\lib\commons-collections-2.1.1.jar;C:\stagehibernate\hibernate-3.2\lib\commons-logging-1.0.4.jar;C:\stagehibernate\hibernate-3.2\hibernate3.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit_3.2.1.r321_v20060810/junitsupport.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit.runtime_3.2.1.r321_v20060721/junitruntime.jar, user.name=metienne, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=32, java.home=C:\Program Files\Java\jre1.5.0_11, hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB, hibernate.dialect=org.hibernate.dialect.HSQLDialect, java.specification.vendor=Sun Microsystems Inc., user.language=fr, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3p0.max_size=20, java.vm.info=mixed mode, java.version=1.5.0_11, java.ext.dirs=C:\Program Files\Java\jre1.5.0_11\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.5.0_11\lib\rt.jar;C:\Program Files\Java\jre1.5.0_11\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_11\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_11\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_11\lib\jce.jar;C:\Program Files\Java\jre1.5.0_11\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_11\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dialect=org.hibernate.dialect.HSQLDialect}
+22:35:19,203 DEBUG AbstractEntityPersister:2738 - Static SQL for entity: igpde.gestion.domaine.Service
+22:35:19,203 DEBUG AbstractEntityPersister:2743 -  Version select: select id from Services where id =?
+22:35:19,203 DEBUG AbstractEntityPersister:2746 -  Snapshot select: select service_.id, service_.libelle as libelle0_, service_.interlocuteur as interloc3_0_ from Services service_ where service_.id=?
+22:35:19,203 DEBUG AbstractEntityPersister:2749 -  Insert 0: insert into Services (libelle, interlocuteur, id) values (?, ?, ?)
+22:35:19,203 DEBUG AbstractEntityPersister:2750 -  Update 0: update Services set libelle=?, interlocuteur=? where id=?
+22:35:19,203 DEBUG AbstractEntityPersister:2751 -  Delete 0: delete from Services where id=?
+22:35:19,203 DEBUG AbstractEntityPersister:2755 -  Identity insert: insert into Services (id, libelle, interlocuteur) values (null, ?, ?)
+22:35:19,234 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,234 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,234 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,234 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,234 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,250 DEBUG EntityLoader:34 - Static select for action ACTION_MERGE on entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,250 DEBUG EntityLoader:34 - Static select for action ACTION_REFRESH on entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:35:19,265 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+22:35:19,265 DEBUG SessionFactoryObjectFactory:76 - registered: 4028851c1326cc22011326cc24520000 (unnamed)
+22:35:19,265  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+22:35:19,265 DEBUG SessionFactoryImpl:308 - instantiated session factory
+22:35:19,265 DEBUG SessionFactoryImpl:392 - Checking 0 named HQL queries
+22:35:19,265 DEBUG SessionFactoryImpl:412 - Checking 0 named SQL queries
+22:35:19,390 DEBUG SessionImpl:220 - opened session at timestamp: 11817669193
+22:35:19,390 DEBUG JDBCTransaction:54 - begin
+22:35:19,390 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:19,406 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:19,406 DEBUG JDBCContext:210 - after transaction begin
+22:35:19,406 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (from Service)
+22:35:19,515 DEBUG QueryTranslatorImpl:246 - parse() - HQL: from igpde.gestion.domaine.Service
+22:35:19,531 DEBUG AST:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    \-[SELECT_FROM] 'SELECT_FROM'
+       \-[FROM] 'from'
+          \-[RANGE] 'RANGE'
+             \-[DOT] '.'
+                +-[DOT] '.'
+                |  +-[DOT] '.'
+                |  |  +-[IDENT] 'igpde'
+                |  |  \-[IDENT] 'gestion'
+                |  \-[IDENT] 'domaine'
+                \-[IDENT] 'Service'
+
+22:35:19,531 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,578 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+22:35:19,609 DEBUG FromElement:108 - FromClause{level=1} :  igpde.gestion.domaine.Service (no alias) -> service0_
+22:35:19,609 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+22:35:19,609 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( FromClause{level=1} Services service0_ ) )
+22:35:19,625 DEBUG HqlSqlWalker:716 - Derived SELECT clause created.
+22:35:19,625 DEBUG JoinProcessor:148 - Using FROM fragment [Services service0_]
+22:35:19,640 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+22:35:19,640 DEBUG AST:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Services)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'service0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[service0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Services service0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}
+
+22:35:19,640 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,656 DEBUG QueryTranslatorImpl:216 - HQL: from igpde.gestion.domaine.Service
+22:35:19,656 DEBUG QueryTranslatorImpl:217 - SQL: select service0_.id as id0_, service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_ from Services service0_
+22:35:19,656 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,671 DEBUG HQLQueryPlan:269 - HQL param location recognition took 15 mills (from Service)
+22:35:19,671 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:35:19,671 DEBUG HQLQueryPlan:150 - find: from Service
+22:35:19,671 DEBUG QueryParameters:277 - named parameters: {}
+22:35:19,671 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:19,687 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:35:19,687 DEBUG AbstractBatcher:484 - preparing statement
+22:35:19,718 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:35:19,718 DEBUG Loader:694 - processing result set
+22:35:19,718 DEBUG Loader:721 - done processing result set (0 rows)
+22:35:19,734 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:35:19,734 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:19,734 DEBUG AbstractBatcher:533 - closing statement
+22:35:19,734 DEBUG Loader:851 - total objects hydrated: 0
+22:35:19,734 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:35:19,734 DEBUG SessionImpl:273 - closing session
+22:35:19,734 DEBUG ConnectionManager:380 - performing cleanup
+22:35:19,734 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:19,765 DEBUG SessionImpl:220 - opened session at timestamp: 11817669197
+22:35:19,765 DEBUG JDBCTransaction:54 - begin
+22:35:19,765 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:19,765 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:19,765 DEBUG JDBCContext:210 - after transaction begin
+22:35:19,765 DEBUG AbstractSaveEventListener:514 - transient instance of: igpde.gestion.domaine.Service
+22:35:19,765 DEBUG DefaultSaveOrUpdateEventListener:158 - saving transient instance
+22:35:19,781 DEBUG AbstractSaveEventListener:153 - saving [igpde.gestion.domaine.Service#<null>]
+22:35:19,781 DEBUG AbstractSaveEventListener:244 - executing insertions
+22:35:19,796 DEBUG AbstractSaveEventListener:297 - executing identity-insert immediately
+22:35:19,796 DEBUG AbstractEntityPersister:2144 - Inserting entity: igpde.gestion.domaine.Service (native id)
+22:35:19,796 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:19,796 DEBUG SQL:401 - 
+    insert 
+    into
+        Services
+        (id, libelle, interlocuteur) 
+    values
+        (null, ?, ?)
+22:35:19,796 DEBUG AbstractBatcher:484 - preparing statement
+22:35:19,796 DEBUG AbstractEntityPersister:1992 - Dehydrating entity: [igpde.gestion.domaine.Service#<null>]
+22:35:19,796 DEBUG StringType:133 - binding 'CDIF Nantes' to parameter: 1
+22:35:19,812 DEBUG StringType:133 - binding 'Michel MARTIN' to parameter: 2
+22:35:19,812 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:19,812 DEBUG AbstractBatcher:533 - closing statement
+22:35:19,812 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:19,812 DEBUG SQL:401 - 
+    call identity()
+22:35:19,812 DEBUG AbstractBatcher:484 - preparing statement
+22:35:19,828 DEBUG IdentifierGeneratorFactory:37 - Natively generated identity: 0
+22:35:19,828 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:19,828 DEBUG AbstractBatcher:533 - closing statement
+22:35:19,828 DEBUG JDBCTransaction:103 - commit
+22:35:19,828 DEBUG SessionImpl:337 - automatically flushing session
+22:35:19,828 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:35:19,828 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:35:19,828 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:35:19,828 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:35:19,843 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:35:19,843 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:35:19,843 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+22:35:19,843 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:35:19,843 DEBUG Printer:83 - listing entities:
+22:35:19,843 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=0}
+22:35:19,843 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:35:19,843 DEBUG ConnectionManager:469 - registering flush begin
+22:35:19,843 DEBUG ConnectionManager:478 - registering flush end
+22:35:19,843 DEBUG AbstractFlushingEventListener:321 - post flush
+22:35:19,843 DEBUG JDBCContext:201 - before transaction completion
+22:35:19,843 DEBUG SessionImpl:393 - before transaction completion
+22:35:19,843 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:35:19,843 DEBUG JDBCContext:215 - after transaction completion
+22:35:19,843 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:35:19,843 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:19,859 DEBUG SessionImpl:422 - after transaction completion
+22:35:19,859 DEBUG SessionImpl:273 - closing session
+22:35:19,859 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:35:19,859 DEBUG SessionImpl:220 - opened session at timestamp: 11817669198
+22:35:19,859 DEBUG JDBCTransaction:54 - begin
+22:35:19,859 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:19,875 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:19,875 DEBUG JDBCContext:210 - after transaction begin
+22:35:19,875 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (from Service where libelle = ?)
+22:35:19,875 DEBUG QueryTranslatorImpl:246 - parse() - HQL: from igpde.gestion.domaine.Service where libelle = ?
+22:35:19,890 DEBUG AST:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        \-[DOT] '.'
+    |           +-[DOT] '.'
+    |           |  +-[DOT] '.'
+    |           |  |  +-[IDENT] 'igpde'
+    |           |  |  \-[IDENT] 'gestion'
+    |           |  \-[IDENT] 'domaine'
+    |           \-[IDENT] 'Service'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[IDENT] 'libelle'
+          \-[PARAM] '?'
+
+22:35:19,890 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,890 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+22:35:19,890 DEBUG FromElement:108 - FromClause{level=1} :  igpde.gestion.domaine.Service (no alias) -> service0_
+22:35:19,890 DEBUG HqlSqlWalker:475 - attempting to resolve property [libelle] as a non-qualified ref
+22:35:19,890 DEBUG FromReferenceNode:51 - Resolved :  {synthetic-alias} -> {synthetic-alias}
+22:35:19,890 DEBUG FromElement:525 - handling property dereference [igpde.gestion.domaine.Service (null) -> libelle (class)]
+22:35:19,890 DEBUG DotNode:568 - getDataType() : libelle -> org.hibernate.type.StringType@164debb
+22:35:19,890 DEBUG FromReferenceNode:51 - Resolved :  {synthetic-alias}.libelle -> service0_.libelle
+22:35:19,906 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+22:35:19,906 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( FromClause{level=1} Services service0_ ) ( where ( = ( service0_.libelle {synthetic-alias} libelle ) ? ) ) )
+22:35:19,906 DEBUG HqlSqlWalker:716 - Derived SELECT clause created.
+22:35:19,906 DEBUG JoinProcessor:148 - Using FROM fragment [Services service0_]
+22:35:19,906 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+22:35:19,906 DEBUG AST:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Services)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'service0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[service0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Services service0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'service0_.libelle' {propertyName=libelle,dereferenceType=4,propertyPath=libelle,path={synthetic-alias}.libelle,tableAlias=service0_,className=igpde.gestion.domaine.Service,classAlias=null}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'libelle' {originalText=libelle}
+          \-[PARAM] ParameterNode: '?' {ordinal=0, expectedType=org.hibernate.type.StringType@164debb}
+
+22:35:19,906 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,906 DEBUG QueryTranslatorImpl:216 - HQL: from igpde.gestion.domaine.Service where libelle = ?
+22:35:19,906 DEBUG QueryTranslatorImpl:217 - SQL: select service0_.id as id0_, service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_ from Services service0_ where service0_.libelle=?
+22:35:19,906 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:35:19,906 DEBUG HQLQueryPlan:269 - HQL param location recognition took 0 mills (from Service where libelle = ?)
+22:35:19,906 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service where libelle = ?)
+22:35:19,906 DEBUG HQLQueryPlan:150 - find: from Service where libelle = ?
+22:35:19,906 DEBUG QueryParameters:271 - parameters: [CDIF Nantes]
+22:35:19,906 DEBUG QueryParameters:277 - named parameters: {}
+22:35:19,921 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:19,921 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_ 
+    where
+        service0_.libelle=?
+22:35:19,921 DEBUG AbstractBatcher:484 - preparing statement
+22:35:19,921 DEBUG StringType:133 - binding 'CDIF Nantes' to parameter: 1
+22:35:19,921 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:35:19,937 DEBUG Loader:694 - processing result set
+22:35:19,937 DEBUG Loader:699 - result set row: 0
+22:35:19,937 DEBUG LongType:172 - returning '0' as column: id0_
+22:35:19,937 DEBUG Loader:1173 - result row: EntityKey[igpde.gestion.domaine.Service#0]
+22:35:19,937 DEBUG Loader:1355 - Initializing object from ResultSet: [igpde.gestion.domaine.Service#0]
+22:35:19,937 DEBUG AbstractEntityPersister:2031 - Hydrating entity: [igpde.gestion.domaine.Service#0]
+22:35:19,937 DEBUG StringType:172 - returning 'CDIF Nantes' as column: libelle0_
+22:35:19,937 DEBUG StringType:172 - returning 'Michel MARTIN' as column: interloc3_0_
+22:35:19,937 DEBUG Loader:721 - done processing result set (1 rows)
+22:35:19,937 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:35:19,937 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:19,937 DEBUG AbstractBatcher:533 - closing statement
+22:35:19,937 DEBUG Loader:851 - total objects hydrated: 1
+22:35:19,953 DEBUG TwoPhaseLoad:107 - resolving associations for [igpde.gestion.domaine.Service#0]
+22:35:19,953 DEBUG TwoPhaseLoad:206 - done materializing entity [igpde.gestion.domaine.Service#0]
+22:35:19,953 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:35:19,953 DEBUG JDBCTransaction:103 - commit
+22:35:19,953 DEBUG SessionImpl:337 - automatically flushing session
+22:35:19,953 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:35:19,953 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:35:19,953 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:35:19,953 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:35:19,953 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:35:19,953 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:35:19,953 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+22:35:19,953 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:35:19,953 DEBUG Printer:83 - listing entities:
+22:35:19,953 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=0}
+22:35:19,953 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:35:19,953 DEBUG ConnectionManager:469 - registering flush begin
+22:35:19,953 DEBUG ConnectionManager:478 - registering flush end
+22:35:19,953 DEBUG AbstractFlushingEventListener:321 - post flush
+22:35:19,953 DEBUG JDBCContext:201 - before transaction completion
+22:35:19,953 DEBUG SessionImpl:393 - before transaction completion
+22:35:19,953 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:35:19,953 DEBUG JDBCContext:215 - after transaction completion
+22:35:19,968 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:35:19,968 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:19,968 DEBUG SessionImpl:422 - after transaction completion
+22:35:19,968 DEBUG SessionImpl:273 - closing session
+22:35:19,968 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:35:19,968 DEBUG SessionImpl:220 - opened session at timestamp: 11817669199
+22:35:19,968 DEBUG JDBCTransaction:54 - begin
+22:35:19,968 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:19,968 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:19,984 DEBUG JDBCContext:210 - after transaction begin
+22:35:19,984 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:35:19,984 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:35:19,984 DEBUG HQLQueryPlan:150 - find: from Service
+22:35:19,984 DEBUG QueryParameters:277 - named parameters: {}
+22:35:19,984 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:19,984 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:35:19,984 DEBUG AbstractBatcher:484 - preparing statement
+22:35:19,984 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:35:19,984 DEBUG Loader:694 - processing result set
+22:35:19,984 DEBUG Loader:699 - result set row: 0
+22:35:19,984 DEBUG LongType:172 - returning '0' as column: id0_
+22:35:19,984 DEBUG Loader:1173 - result row: EntityKey[igpde.gestion.domaine.Service#0]
+22:35:19,984 DEBUG Loader:1355 - Initializing object from ResultSet: [igpde.gestion.domaine.Service#0]
+22:35:19,984 DEBUG AbstractEntityPersister:2031 - Hydrating entity: [igpde.gestion.domaine.Service#0]
+22:35:19,984 DEBUG StringType:172 - returning 'CDIF Nantes' as column: libelle0_
+22:35:19,984 DEBUG StringType:172 - returning 'Michel MARTIN' as column: interloc3_0_
+22:35:20,000 DEBUG Loader:721 - done processing result set (1 rows)
+22:35:20,000 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:35:20,000 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:20,000 DEBUG AbstractBatcher:533 - closing statement
+22:35:20,000 DEBUG Loader:851 - total objects hydrated: 1
+22:35:20,000 DEBUG TwoPhaseLoad:107 - resolving associations for [igpde.gestion.domaine.Service#0]
+22:35:20,000 DEBUG TwoPhaseLoad:206 - done materializing entity [igpde.gestion.domaine.Service#0]
+22:35:20,000 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:35:20,000 DEBUG SessionImpl:273 - closing session
+22:35:20,000 DEBUG ConnectionManager:380 - performing cleanup
+22:35:20,000 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:20,015 DEBUG SessionImpl:220 - opened session at timestamp: 11817669200
+22:35:20,015 DEBUG JDBCTransaction:54 - begin
+22:35:20,015 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:20,015 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:20,015 DEBUG JDBCContext:210 - after transaction begin
+22:35:20,015 DEBUG DefaultDeleteEventListener:76 - entity was not persistent in delete processing
+22:35:20,015 DEBUG IdentifierValue:61 - id unsaved-value strategy NULL
+22:35:20,031 DEBUG DefaultDeleteEventListener:213 - deleting [igpde.gestion.domaine.Service#0]
+22:35:20,031 DEBUG SessionImpl:1308 - setting cache mode to: GET
+22:35:20,031 DEBUG SessionImpl:1308 - setting cache mode to: NORMAL
+22:35:20,031 DEBUG SessionImpl:1308 - setting cache mode to: GET
+22:35:20,031 DEBUG SessionImpl:1308 - setting cache mode to: NORMAL
+22:35:20,031 DEBUG JDBCTransaction:103 - commit
+22:35:20,031 DEBUG SessionImpl:337 - automatically flushing session
+22:35:20,031 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:35:20,031 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:35:20,031 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:35:20,031 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:35:20,031 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:35:20,031 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:35:20,031 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+22:35:20,031 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:35:20,031 DEBUG Printer:83 - listing entities:
+22:35:20,031 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=0}
+22:35:20,031 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:35:20,031 DEBUG ConnectionManager:469 - registering flush begin
+22:35:20,046 DEBUG AbstractEntityPersister:2456 - Deleting entity: [igpde.gestion.domaine.Service#0]
+22:35:20,046 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:20,046 DEBUG SQL:401 - 
+    delete 
+    from
+        Services 
+    where
+        id=?
+22:35:20,046 DEBUG AbstractBatcher:484 - preparing statement
+22:35:20,062 DEBUG LongType:133 - binding '0' to parameter: 1
+22:35:20,062 DEBUG AbstractBatcher:44 - Executing batch size: 1
+22:35:20,062 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:20,062 DEBUG AbstractBatcher:533 - closing statement
+22:35:20,062 DEBUG ConnectionManager:478 - registering flush end
+22:35:20,062 DEBUG AbstractFlushingEventListener:321 - post flush
+22:35:20,062 DEBUG JDBCContext:201 - before transaction completion
+22:35:20,062 DEBUG SessionImpl:393 - before transaction completion
+22:35:20,062 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:35:20,062 DEBUG JDBCContext:215 - after transaction completion
+22:35:20,062 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:35:20,062 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:20,078 DEBUG SessionImpl:422 - after transaction completion
+22:35:20,078 DEBUG SessionImpl:273 - closing session
+22:35:20,078 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:35:20,078 DEBUG SessionImpl:220 - opened session at timestamp: 11817669200
+22:35:20,078 DEBUG JDBCTransaction:54 - begin
+22:35:20,078 DEBUG ConnectionManager:421 - opening JDBC connection
+22:35:20,093 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:35:20,093 DEBUG JDBCContext:210 - after transaction begin
+22:35:20,093 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:35:20,093 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:35:20,093 DEBUG HQLQueryPlan:150 - find: from Service
+22:35:20,093 DEBUG QueryParameters:277 - named parameters: {}
+22:35:20,093 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:35:20,093 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:35:20,093 DEBUG AbstractBatcher:484 - preparing statement
+22:35:20,093 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:35:20,093 DEBUG Loader:694 - processing result set
+22:35:20,093 DEBUG Loader:721 - done processing result set (0 rows)
+22:35:20,093 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:35:20,093 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:35:20,093 DEBUG AbstractBatcher:533 - closing statement
+22:35:20,093 DEBUG Loader:851 - total objects hydrated: 0
+22:35:20,093 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:35:20,093 DEBUG SessionImpl:273 - closing session
+22:35:20,109 DEBUG ConnectionManager:380 - performing cleanup
+22:35:20,109 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:35:58,859  INFO Environment:514 - Hibernate 3.2.4.sp1
+22:35:58,875  INFO Environment:547 - hibernate.properties not found
+22:35:58,875  INFO Environment:681 - Bytecode provider name : cglib
+22:35:58,890  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+22:35:58,968  INFO Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+22:35:58,968  INFO Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+22:35:59,046 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+22:35:59,046 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+22:35:59,046 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+22:35:59,093 DEBUG Configuration:1387 - hibernate.connection.driver_class=org.hsqldb.jdbcDriver
+22:35:59,093 DEBUG Configuration:1387 - hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB
+22:35:59,093 DEBUG Configuration:1387 - hibernate.connection.username=sa
+22:35:59,093 DEBUG Configuration:1387 - hibernate.connection.password=
+22:35:59,093 DEBUG Configuration:1387 - dialect=org.hibernate.dialect.HSQLDialect
+22:35:59,093 DEBUG Configuration:1387 - hibernate.c3p0.min_size=5
+22:35:59,093 DEBUG Configuration:1387 - hibernate.c3p0.max_size=20
+22:35:59,093 DEBUG Configuration:1387 - hibernate.c3p0.timeout=300
+22:35:59,093 DEBUG Configuration:1387 - hibernate.c3p0.max_statements=50
+22:35:59,093 DEBUG Configuration:1387 - hibernate.c3p0.idle_test_period=3000
+22:35:59,109 DEBUG Configuration:1387 - show_sql=true
+22:35:59,109 DEBUG Configuration:1387 - format_sql=true
+22:35:59,109 DEBUG Configuration:1387 - comment_sql=true
+22:35:59,109 DEBUG Configuration:1586 - null<-org.dom4j.tree.DefaultAttribute@109fd93 [Attribute: name resource value "igpde/gestion/domaine/Service.hbm.xml"]
+22:35:59,109  INFO Configuration:553 - Reading mappings from resource : igpde/gestion/domaine/Service.hbm.xml
+22:35:59,109 DEBUG DTDEntityResolver:38 - trying to resolve system-id [file:///C:/stagehibernate/solutions/TP1_Service/hibernate-mapping-3.0.dtd]
+22:35:59,234  INFO HbmBinder:300 - Mapping class: igpde.gestion.domaine.Service -> Services
+22:35:59,250 DEBUG HbmBinder:1270 - Mapped property: id -> id
+22:35:59,250 DEBUG HbmBinder:1270 - Mapped property: libelle -> libelle
+22:35:59,265 DEBUG HbmBinder:1270 - Mapped property: interlocuteur -> interlocuteur
+22:35:59,265  INFO Configuration:1541 - Configured SessionFactory: null
+22:35:59,265 DEBUG Configuration:1542 - properties: {hibernate.connection.password=, java.runtime.name=Java(TM) 2 Runtime Environment, Standard Edition, sun.boot.library.path=C:\Program Files\Java\jre1.5.0_11\bin, java.vm.version=1.5.0_11-b03, hibernate.connection.username=sa, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 2, comment_sql=true, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\stagehibernate\solutions\TP1_Service, java.runtime.version=1.5.0_11-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.c3p0.max_statements=50, java.endorsed.dirs=C:\Program Files\Java\jre1.5.0_11\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\DOCUME~1\metienne\LOCALS~1\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows XP, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jre1.5.0_11\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\cvsnt;C:\Program Files\UltraEdit-32;C:\Program Files\Rational\common;"C:\Program Files\Zone Labs\ZoneAlarm\MailFrontier";, java.specification.name=Java Platform API Specification, java.class.version=49.0, sun.management.compiler=HotSpot Client Compiler, os.version=5.1, user.home=C:\Documents and Settings\metienne, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.5, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, show_sql=true, hibernate.comment_sql=true, user.name=metienne, java.class.path=C:\stagehibernate\solutions\TP1_Service\bin;C:\stagehibernate\hsqldb\lib\hsqldb.jar;C:\ide_java\eclipse\plugins\org.junit_3.8.1\junit.jar;C:\stagehibernate\hibernate-3.2\lib\dom4j-1.6.1.jar;C:\stagehibernate\hibernate-3.2\lib\ehcache-1.2.3.jar;C:\stagehibernate\hibernate-3.2\lib\jta.jar;C:\stagehibernate\hibernate-3.2\lib\log4j-1.2.11.jar;C:\stagehibernate\hibernate-3.2\lib\antlr-2.7.6.jar;C:\stagehibernate\hibernate-3.2\lib\asm.jar;C:\stagehibernate\hibernate-3.2\lib\asm-attrs.jar;C:\stagehibernate\hibernate-3.2\lib\c3p0-0.9.1.jar;C:\stagehibernate\hibernate-3.2\lib\cglib-2.1.3.jar;C:\stagehibernate\hibernate-3.2\lib\commons-collections-2.1.1.jar;C:\stagehibernate\hibernate-3.2\lib\commons-logging-1.0.4.jar;C:\stagehibernate\hibernate-3.2\hibernate3.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit_3.2.1.r321_v20060810/junitsupport.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit.runtime_3.2.1.r321_v20060721/junitruntime.jar, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=C:\Program Files\Java\jre1.5.0_11, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.HSQLDialect, hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB, user.language=fr, java.specification.vendor=Sun Microsystems Inc., hibernate.c3p0.max_size=20, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.5.0_11, java.ext.dirs=C:\Program Files\Java\jre1.5.0_11\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.5.0_11\lib\rt.jar;C:\Program Files\Java\jre1.5.0_11\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_11\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_11\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_11\lib\jce.jar;C:\Program Files\Java\jre1.5.0_11\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_11\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.HSQLDialect, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+22:35:59,265 DEBUG Configuration:1285 - Preparing to build session factory with filters : {}
+22:35:59,265 DEBUG Configuration:1120 - processing extends queue
+22:35:59,265 DEBUG Configuration:1124 - processing collection mappings
+22:35:59,265 DEBUG Configuration:1135 - processing native query and ResultSetMapping mappings
+22:35:59,265 DEBUG Configuration:1143 - processing association property references
+22:35:59,265 DEBUG Configuration:1165 - processing foreign key constraints
+22:35:59,343  INFO C3P0ConnectionProvider:81 - C3P0 using driver: org.hsqldb.jdbcDriver at URL: jdbc:hsqldb:hsql://localhost/igpdeDB
+22:35:59,359  INFO C3P0ConnectionProvider:82 - Connection properties: {user=sa, password=****}
+22:35:59,359  INFO C3P0ConnectionProvider:85 - autocommit mode: false
+22:35:59,375  INFO MLog:80 - MLog clients using log4j logging.
+22:35:59,593  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+22:35:59,687  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@dcf7d457 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@64ed6c4c [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1zw7nark6kt5bmz93|1d6a56e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@618859fc [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1zw7nark6kt5bmz93|1f78040, jdbcUrl -> jdbc:hsqldb:hsql://localhost/igpdeDB, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1zw7nark6kt5bmz93|4ee70b, numHelperThreads -> 3 ]
+22:35:59,953  INFO SettingsFactory:89 - RDBMS: HSQL Database Engine, version: 1.8.0
+22:35:59,968  INFO SettingsFactory:90 - JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+22:36:00,000  INFO Dialect:152 - Using dialect: org.hibernate.dialect.HSQLDialect
+22:36:00,031  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+22:36:00,046  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+22:36:00,046  INFO SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+22:36:00,046  INFO SettingsFactory:147 - Automatic session close at end of transaction: disabled
+22:36:00,046  INFO SettingsFactory:154 - JDBC batch size: 15
+22:36:00,046  INFO SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+22:36:00,046  INFO SettingsFactory:162 - Scrollable result sets: enabled
+22:36:00,046 DEBUG SettingsFactory:166 - Wrap result sets: disabled
+22:36:00,046  INFO SettingsFactory:170 - JDBC3 getGeneratedKeys(): disabled
+22:36:00,046  INFO SettingsFactory:178 - Connection release mode: auto
+22:36:00,046  INFO SettingsFactory:205 - Default batch fetch size: 1
+22:36:00,062  INFO SettingsFactory:209 - Generate SQL with comments: disabled
+22:36:00,062  INFO SettingsFactory:213 - Order SQL updates by primary key: disabled
+22:36:00,062  INFO SettingsFactory:217 - Order SQL inserts for batching: disabled
+22:36:00,062  INFO SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+22:36:00,062  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+22:36:00,062  INFO SettingsFactory:225 - Query language substitutions: {}
+22:36:00,062  INFO SettingsFactory:230 - JPA-QL strict compliance: disabled
+22:36:00,062  INFO SettingsFactory:235 - Second-level cache: enabled
+22:36:00,062  INFO SettingsFactory:239 - Query cache: disabled
+22:36:00,062  INFO SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+22:36:00,062  INFO SettingsFactory:254 - Optimize cache for minimal puts: disabled
+22:36:00,062  INFO SettingsFactory:263 - Structured second-level cache entries: disabled
+22:36:00,062 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+22:36:00,078  INFO SettingsFactory:283 - Echoing all SQL to stdout
+22:36:00,078  INFO SettingsFactory:290 - Statistics: disabled
+22:36:00,078  INFO SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+22:36:00,078  INFO SettingsFactory:309 - Default entity-mode: pojo
+22:36:00,078  INFO SettingsFactory:313 - Named query checking : enabled
+22:36:00,109  INFO SessionFactoryImpl:161 - building session factory
+22:36:00,109 DEBUG SessionFactoryImpl:173 - Session factory constructed with filter configurations : {}
+22:36:00,125 DEBUG SessionFactoryImpl:177 - instantiating session factory with properties: {java.runtime.name=Java(TM) 2 Runtime Environment, Standard Edition, hibernate.connection.password=, sun.boot.library.path=C:\Program Files\Java\jre1.5.0_11\bin, java.vm.version=1.5.0_11-b03, hibernate.connection.username=sa, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 2, comment_sql=true, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\stagehibernate\solutions\TP1_Service, java.runtime.version=1.5.0_11-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre1.5.0_11\lib\endorsed, os.arch=x86, hibernate.c3p0.max_statements=50, java.io.tmpdir=C:\DOCUME~1\metienne\LOCALS~1\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows XP, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jre1.5.0_11\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\cvsnt;C:\Program Files\UltraEdit-32;C:\Program Files\Rational\common;"C:\Program Files\Zone Labs\ZoneAlarm\MailFrontier";, java.specification.name=Java Platform API Specification, java.class.version=49.0, sun.management.compiler=HotSpot Client Compiler, os.version=5.1, user.home=C:\Documents and Settings\metienne, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.5, file.encoding=Cp1252, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, show_sql=true, java.class.path=C:\stagehibernate\solutions\TP1_Service\bin;C:\stagehibernate\hsqldb\lib\hsqldb.jar;C:\ide_java\eclipse\plugins\org.junit_3.8.1\junit.jar;C:\stagehibernate\hibernate-3.2\lib\dom4j-1.6.1.jar;C:\stagehibernate\hibernate-3.2\lib\ehcache-1.2.3.jar;C:\stagehibernate\hibernate-3.2\lib\jta.jar;C:\stagehibernate\hibernate-3.2\lib\log4j-1.2.11.jar;C:\stagehibernate\hibernate-3.2\lib\antlr-2.7.6.jar;C:\stagehibernate\hibernate-3.2\lib\asm.jar;C:\stagehibernate\hibernate-3.2\lib\asm-attrs.jar;C:\stagehibernate\hibernate-3.2\lib\c3p0-0.9.1.jar;C:\stagehibernate\hibernate-3.2\lib\cglib-2.1.3.jar;C:\stagehibernate\hibernate-3.2\lib\commons-collections-2.1.1.jar;C:\stagehibernate\hibernate-3.2\lib\commons-logging-1.0.4.jar;C:\stagehibernate\hibernate-3.2\hibernate3.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit_3.2.1.r321_v20060810/junitsupport.jar;/C:/ide_java/eclipse/plugins/org.eclipse.jdt.junit.runtime_3.2.1.r321_v20060721/junitruntime.jar, user.name=metienne, hibernate.comment_sql=true, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=32, java.home=C:\Program Files\Java\jre1.5.0_11, hibernate.connection.url=jdbc:hsqldb:hsql://localhost/igpdeDB, hibernate.dialect=org.hibernate.dialect.HSQLDialect, java.specification.vendor=Sun Microsystems Inc., user.language=fr, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3p0.max_size=20, java.vm.info=mixed mode, java.version=1.5.0_11, java.ext.dirs=C:\Program Files\Java\jre1.5.0_11\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.5.0_11\lib\rt.jar;C:\Program Files\Java\jre1.5.0_11\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_11\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_11\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_11\lib\jce.jar;C:\Program Files\Java\jre1.5.0_11\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_11\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dialect=org.hibernate.dialect.HSQLDialect}
+22:36:00,421 DEBUG AbstractEntityPersister:2738 - Static SQL for entity: igpde.gestion.domaine.Service
+22:36:00,421 DEBUG AbstractEntityPersister:2743 -  Version select: select id from Services where id =?
+22:36:00,421 DEBUG AbstractEntityPersister:2746 -  Snapshot select: select service_.id, service_.libelle as libelle0_, service_.interlocuteur as interloc3_0_ from Services service_ where service_.id=?
+22:36:00,421 DEBUG AbstractEntityPersister:2749 -  Insert 0: insert into Services (libelle, interlocuteur, id) values (?, ?, ?)
+22:36:00,421 DEBUG AbstractEntityPersister:2750 -  Update 0: update Services set libelle=?, interlocuteur=? where id=?
+22:36:00,421 DEBUG AbstractEntityPersister:2751 -  Delete 0: delete from Services where id=?
+22:36:00,421 DEBUG AbstractEntityPersister:2755 -  Identity insert: insert into Services (id, libelle, interlocuteur) values (null, ?, ?)
+22:36:00,468 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:79 - Static select for entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:34 - Static select for action ACTION_MERGE on entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,468 DEBUG EntityLoader:34 - Static select for action ACTION_REFRESH on entity igpde.gestion.domaine.Service: select service0_.id as id0_0_, service0_.libelle as libelle0_0_, service0_.interlocuteur as interloc3_0_0_ from Services service0_ where service0_.id=?
+22:36:00,484 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+22:36:00,484 DEBUG SessionFactoryObjectFactory:76 - registered: 4028851c1326ccc3011326ccc5640000 (unnamed)
+22:36:00,484  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+22:36:00,484 DEBUG SessionFactoryImpl:308 - instantiated session factory
+22:36:00,484 DEBUG SessionFactoryImpl:392 - Checking 0 named HQL queries
+22:36:00,484 DEBUG SessionFactoryImpl:412 - Checking 0 named SQL queries
+22:36:00,562 DEBUG SessionImpl:220 - opened session at timestamp: 11817669605
+22:36:00,562 DEBUG JDBCTransaction:54 - begin
+22:36:00,562 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:00,562 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:00,562 DEBUG JDBCContext:210 - after transaction begin
+22:36:00,578 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (from Service)
+22:36:00,656 DEBUG QueryTranslatorImpl:246 - parse() - HQL: from igpde.gestion.domaine.Service
+22:36:00,671 DEBUG AST:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    \-[SELECT_FROM] 'SELECT_FROM'
+       \-[FROM] 'from'
+          \-[RANGE] 'RANGE'
+             \-[DOT] '.'
+                +-[DOT] '.'
+                |  +-[DOT] '.'
+                |  |  +-[IDENT] 'igpde'
+                |  |  \-[IDENT] 'gestion'
+                |  \-[IDENT] 'domaine'
+                \-[IDENT] 'Service'
+
+22:36:00,671 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:00,734 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+22:36:00,765 DEBUG FromElement:108 - FromClause{level=1} :  igpde.gestion.domaine.Service (no alias) -> service0_
+22:36:00,765 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+22:36:00,765 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( FromClause{level=1} Services service0_ ) )
+22:36:00,781 DEBUG HqlSqlWalker:716 - Derived SELECT clause created.
+22:36:00,781 DEBUG JoinProcessor:148 - Using FROM fragment [Services service0_]
+22:36:00,781 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+22:36:00,796 DEBUG AST:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Services)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'service0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[service0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Services service0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}
+
+22:36:00,796 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:00,812 DEBUG QueryTranslatorImpl:216 - HQL: from igpde.gestion.domaine.Service
+22:36:00,812 DEBUG QueryTranslatorImpl:217 - SQL: select service0_.id as id0_, service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_ from Services service0_
+22:36:00,812 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:00,812 DEBUG HQLQueryPlan:269 - HQL param location recognition took 0 mills (from Service)
+22:36:00,828 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:36:00,828 DEBUG HQLQueryPlan:150 - find: from Service
+22:36:00,828 DEBUG QueryParameters:277 - named parameters: {}
+22:36:00,828 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:00,843 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:36:00,843 DEBUG AbstractBatcher:484 - preparing statement
+22:36:00,875 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:36:00,875 DEBUG Loader:694 - processing result set
+22:36:00,875 DEBUG Loader:721 - done processing result set (0 rows)
+22:36:00,875 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:36:00,875 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:00,875 DEBUG AbstractBatcher:533 - closing statement
+22:36:00,890 DEBUG Loader:851 - total objects hydrated: 0
+22:36:00,890 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:36:00,890 DEBUG SessionImpl:273 - closing session
+22:36:00,890 DEBUG ConnectionManager:380 - performing cleanup
+22:36:00,890 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:36:00,906 DEBUG SessionImpl:220 - opened session at timestamp: 11817669609
+22:36:00,906 DEBUG JDBCTransaction:54 - begin
+22:36:00,906 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:00,906 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:00,906 DEBUG JDBCContext:210 - after transaction begin
+22:36:00,953 DEBUG AbstractSaveEventListener:514 - transient instance of: igpde.gestion.domaine.Service
+22:36:00,953 DEBUG DefaultSaveOrUpdateEventListener:158 - saving transient instance
+22:36:00,953 DEBUG AbstractSaveEventListener:153 - saving [igpde.gestion.domaine.Service#<null>]
+22:36:00,953 DEBUG AbstractSaveEventListener:244 - executing insertions
+22:36:00,953 DEBUG AbstractSaveEventListener:297 - executing identity-insert immediately
+22:36:00,953 DEBUG AbstractEntityPersister:2144 - Inserting entity: igpde.gestion.domaine.Service (native id)
+22:36:00,953 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:00,953 DEBUG SQL:401 - 
+    insert 
+    into
+        Services
+        (id, libelle, interlocuteur) 
+    values
+        (null, ?, ?)
+22:36:00,953 DEBUG AbstractBatcher:484 - preparing statement
+22:36:00,968 DEBUG AbstractEntityPersister:1992 - Dehydrating entity: [igpde.gestion.domaine.Service#<null>]
+22:36:00,968 DEBUG StringType:133 - binding 'CDIF Nantes' to parameter: 1
+22:36:00,968 DEBUG StringType:133 - binding 'Michel MARTIN' to parameter: 2
+22:36:00,968 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:00,968 DEBUG AbstractBatcher:533 - closing statement
+22:36:00,968 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:00,968 DEBUG SQL:401 - 
+    call identity()
+22:36:00,968 DEBUG AbstractBatcher:484 - preparing statement
+22:36:00,984 DEBUG IdentifierGeneratorFactory:37 - Natively generated identity: 1
+22:36:00,984 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:00,984 DEBUG AbstractBatcher:533 - closing statement
+22:36:00,984 DEBUG JDBCTransaction:103 - commit
+22:36:00,984 DEBUG SessionImpl:337 - automatically flushing session
+22:36:01,000 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:36:01,000 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:36:01,000 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:36:01,000 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:36:01,000 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:36:01,000 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:36:01,000 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+22:36:01,000 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:36:01,000 DEBUG Printer:83 - listing entities:
+22:36:01,000 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=1}
+22:36:01,000 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:36:01,000 DEBUG ConnectionManager:469 - registering flush begin
+22:36:01,000 DEBUG ConnectionManager:478 - registering flush end
+22:36:01,000 DEBUG AbstractFlushingEventListener:321 - post flush
+22:36:01,000 DEBUG JDBCContext:201 - before transaction completion
+22:36:01,000 DEBUG SessionImpl:393 - before transaction completion
+22:36:01,015 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:36:01,015 DEBUG JDBCContext:215 - after transaction completion
+22:36:01,015 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:36:01,015 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:36:01,015 DEBUG SessionImpl:422 - after transaction completion
+22:36:01,015 DEBUG SessionImpl:273 - closing session
+22:36:01,015 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:36:01,015 DEBUG SessionImpl:220 - opened session at timestamp: 11817669610
+22:36:01,015 DEBUG JDBCTransaction:54 - begin
+22:36:01,015 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:01,031 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:01,031 DEBUG JDBCContext:210 - after transaction begin
+22:36:01,031 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (from Service where libelle = ?)
+22:36:01,031 DEBUG QueryTranslatorImpl:246 - parse() - HQL: from igpde.gestion.domaine.Service where libelle = ?
+22:36:01,046 DEBUG AST:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        \-[DOT] '.'
+    |           +-[DOT] '.'
+    |           |  +-[DOT] '.'
+    |           |  |  +-[IDENT] 'igpde'
+    |           |  |  \-[IDENT] 'gestion'
+    |           |  \-[IDENT] 'domaine'
+    |           \-[IDENT] 'Service'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[IDENT] 'libelle'
+          \-[PARAM] '?'
+
+22:36:01,046 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:01,046 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+22:36:01,046 DEBUG FromElement:108 - FromClause{level=1} :  igpde.gestion.domaine.Service (no alias) -> service0_
+22:36:01,046 DEBUG HqlSqlWalker:475 - attempting to resolve property [libelle] as a non-qualified ref
+22:36:01,046 DEBUG FromReferenceNode:51 - Resolved :  {synthetic-alias} -> {synthetic-alias}
+22:36:01,062 DEBUG FromElement:525 - handling property dereference [igpde.gestion.domaine.Service (null) -> libelle (class)]
+22:36:01,062 DEBUG DotNode:568 - getDataType() : libelle -> org.hibernate.type.StringType@164debb
+22:36:01,062 DEBUG FromReferenceNode:51 - Resolved :  {synthetic-alias}.libelle -> service0_.libelle
+22:36:01,062 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+22:36:01,062 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( FromClause{level=1} Services service0_ ) ( where ( = ( service0_.libelle {synthetic-alias} libelle ) ? ) ) )
+22:36:01,062 DEBUG HqlSqlWalker:716 - Derived SELECT clause created.
+22:36:01,062 DEBUG JoinProcessor:148 - Using FROM fragment [Services service0_]
+22:36:01,062 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+22:36:01,062 DEBUG AST:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Services)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'service0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[service0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Services service0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Services,tableAlias=service0_,origin=null,colums={,className=igpde.gestion.domaine.Service}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'service0_.libelle' {propertyName=libelle,dereferenceType=4,propertyPath=libelle,path={synthetic-alias}.libelle,tableAlias=service0_,className=igpde.gestion.domaine.Service,classAlias=null}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'libelle' {originalText=libelle}
+          \-[PARAM] ParameterNode: '?' {ordinal=0, expectedType=org.hibernate.type.StringType@164debb}
+
+22:36:01,078 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:01,078 DEBUG QueryTranslatorImpl:216 - HQL: from igpde.gestion.domaine.Service where libelle = ?
+22:36:01,078 DEBUG QueryTranslatorImpl:217 - SQL: select service0_.id as id0_, service0_.libelle as libelle0_, service0_.interlocuteur as interloc3_0_ from Services service0_ where service0_.libelle=?
+22:36:01,078 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+22:36:01,078 DEBUG HQLQueryPlan:269 - HQL param location recognition took 0 mills (from Service where libelle = ?)
+22:36:01,078 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service where libelle = ?)
+22:36:01,078 DEBUG HQLQueryPlan:150 - find: from Service where libelle = ?
+22:36:01,078 DEBUG QueryParameters:271 - parameters: [CDIF Nantes]
+22:36:01,078 DEBUG QueryParameters:277 - named parameters: {}
+22:36:01,078 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:01,078 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_ 
+    where
+        service0_.libelle=?
+22:36:01,078 DEBUG AbstractBatcher:484 - preparing statement
+22:36:01,078 DEBUG StringType:133 - binding 'CDIF Nantes' to parameter: 1
+22:36:01,078 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:36:01,093 DEBUG Loader:694 - processing result set
+22:36:01,093 DEBUG Loader:699 - result set row: 0
+22:36:01,093 DEBUG LongType:172 - returning '1' as column: id0_
+22:36:01,093 DEBUG Loader:1173 - result row: EntityKey[igpde.gestion.domaine.Service#1]
+22:36:01,093 DEBUG Loader:1355 - Initializing object from ResultSet: [igpde.gestion.domaine.Service#1]
+22:36:01,093 DEBUG AbstractEntityPersister:2031 - Hydrating entity: [igpde.gestion.domaine.Service#1]
+22:36:01,093 DEBUG StringType:172 - returning 'CDIF Nantes' as column: libelle0_
+22:36:01,093 DEBUG StringType:172 - returning 'Michel MARTIN' as column: interloc3_0_
+22:36:01,093 DEBUG Loader:721 - done processing result set (1 rows)
+22:36:01,093 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:36:01,093 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:01,093 DEBUG AbstractBatcher:533 - closing statement
+22:36:01,093 DEBUG Loader:851 - total objects hydrated: 1
+22:36:01,093 DEBUG TwoPhaseLoad:107 - resolving associations for [igpde.gestion.domaine.Service#1]
+22:36:01,093 DEBUG TwoPhaseLoad:206 - done materializing entity [igpde.gestion.domaine.Service#1]
+22:36:01,093 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:36:01,093 DEBUG JDBCTransaction:103 - commit
+22:36:01,093 DEBUG SessionImpl:337 - automatically flushing session
+22:36:01,109 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:36:01,109 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:36:01,109 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:36:01,109 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:36:01,109 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:36:01,109 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:36:01,109 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+22:36:01,109 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:36:01,109 DEBUG Printer:83 - listing entities:
+22:36:01,109 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=1}
+22:36:01,109 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:36:01,109 DEBUG ConnectionManager:469 - registering flush begin
+22:36:01,109 DEBUG ConnectionManager:478 - registering flush end
+22:36:01,109 DEBUG AbstractFlushingEventListener:321 - post flush
+22:36:01,109 DEBUG JDBCContext:201 - before transaction completion
+22:36:01,109 DEBUG SessionImpl:393 - before transaction completion
+22:36:01,125 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:36:01,125 DEBUG JDBCContext:215 - after transaction completion
+22:36:01,125 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:36:01,125 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:36:01,125 DEBUG SessionImpl:422 - after transaction completion
+22:36:01,125 DEBUG SessionImpl:273 - closing session
+22:36:01,125 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:36:01,125 DEBUG SessionImpl:220 - opened session at timestamp: 11817669611
+22:36:01,125 DEBUG JDBCTransaction:54 - begin
+22:36:01,125 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:01,140 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:01,140 DEBUG JDBCContext:210 - after transaction begin
+22:36:01,140 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:36:01,140 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:36:01,140 DEBUG HQLQueryPlan:150 - find: from Service
+22:36:01,140 DEBUG QueryParameters:277 - named parameters: {}
+22:36:01,140 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:01,140 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:36:01,140 DEBUG AbstractBatcher:484 - preparing statement
+22:36:01,140 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:36:01,140 DEBUG Loader:694 - processing result set
+22:36:01,140 DEBUG Loader:699 - result set row: 0
+22:36:01,140 DEBUG LongType:172 - returning '1' as column: id0_
+22:36:01,140 DEBUG Loader:1173 - result row: EntityKey[igpde.gestion.domaine.Service#1]
+22:36:01,140 DEBUG Loader:1355 - Initializing object from ResultSet: [igpde.gestion.domaine.Service#1]
+22:36:01,140 DEBUG AbstractEntityPersister:2031 - Hydrating entity: [igpde.gestion.domaine.Service#1]
+22:36:01,140 DEBUG StringType:172 - returning 'CDIF Nantes' as column: libelle0_
+22:36:01,140 DEBUG StringType:172 - returning 'Michel MARTIN' as column: interloc3_0_
+22:36:01,156 DEBUG Loader:721 - done processing result set (1 rows)
+22:36:01,156 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:36:01,156 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:01,156 DEBUG AbstractBatcher:533 - closing statement
+22:36:01,156 DEBUG Loader:851 - total objects hydrated: 1
+22:36:01,156 DEBUG TwoPhaseLoad:107 - resolving associations for [igpde.gestion.domaine.Service#1]
+22:36:01,156 DEBUG TwoPhaseLoad:206 - done materializing entity [igpde.gestion.domaine.Service#1]
+22:36:01,156 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:36:01,156 DEBUG SessionImpl:273 - closing session
+22:36:01,156 DEBUG ConnectionManager:380 - performing cleanup
+22:36:01,156 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:36:01,171 DEBUG SessionImpl:220 - opened session at timestamp: 11817669611
+22:36:01,171 DEBUG JDBCTransaction:54 - begin
+22:36:01,171 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:01,171 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:01,171 DEBUG JDBCContext:210 - after transaction begin
+22:36:01,171 DEBUG DefaultDeleteEventListener:76 - entity was not persistent in delete processing
+22:36:01,171 DEBUG IdentifierValue:61 - id unsaved-value strategy NULL
+22:36:01,187 DEBUG DefaultDeleteEventListener:213 - deleting [igpde.gestion.domaine.Service#1]
+22:36:01,187 DEBUG SessionImpl:1308 - setting cache mode to: GET
+22:36:01,187 DEBUG SessionImpl:1308 - setting cache mode to: NORMAL
+22:36:01,187 DEBUG SessionImpl:1308 - setting cache mode to: GET
+22:36:01,187 DEBUG SessionImpl:1308 - setting cache mode to: NORMAL
+22:36:01,187 DEBUG JDBCTransaction:103 - commit
+22:36:01,187 DEBUG SessionImpl:337 - automatically flushing session
+22:36:01,187 DEBUG AbstractFlushingEventListener:58 - flushing session
+22:36:01,187 DEBUG AbstractFlushingEventListener:111 - processing flush-time cascades
+22:36:01,187 DEBUG AbstractFlushingEventListener:154 - dirty checking collections
+22:36:01,187 DEBUG AbstractFlushingEventListener:171 - Flushing entities and processing referenced collections
+22:36:01,187 DEBUG AbstractFlushingEventListener:210 - Processing unreferenced collections
+22:36:01,187 DEBUG AbstractFlushingEventListener:224 - Scheduling collection removes/(re)creates/updates
+22:36:01,187 DEBUG AbstractFlushingEventListener:85 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+22:36:01,187 DEBUG AbstractFlushingEventListener:91 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+22:36:01,187 DEBUG Printer:83 - listing entities:
+22:36:01,187 DEBUG Printer:90 - igpde.gestion.domaine.Service{libelle=CDIF Nantes, interlocuteur=Michel MARTIN, id=1}
+22:36:01,187 DEBUG AbstractFlushingEventListener:290 - executing flush
+22:36:01,187 DEBUG ConnectionManager:469 - registering flush begin
+22:36:01,203 DEBUG AbstractEntityPersister:2456 - Deleting entity: [igpde.gestion.domaine.Service#1]
+22:36:01,203 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:01,203 DEBUG SQL:401 - 
+    delete 
+    from
+        Services 
+    where
+        id=?
+22:36:01,203 DEBUG AbstractBatcher:484 - preparing statement
+22:36:01,203 DEBUG LongType:133 - binding '1' to parameter: 1
+22:36:01,203 DEBUG AbstractBatcher:44 - Executing batch size: 1
+22:36:01,203 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:01,203 DEBUG AbstractBatcher:533 - closing statement
+22:36:01,218 DEBUG ConnectionManager:478 - registering flush end
+22:36:01,218 DEBUG AbstractFlushingEventListener:321 - post flush
+22:36:01,218 DEBUG JDBCContext:201 - before transaction completion
+22:36:01,218 DEBUG SessionImpl:393 - before transaction completion
+22:36:01,218 DEBUG JDBCTransaction:116 - committed JDBC Connection
+22:36:01,218 DEBUG JDBCContext:215 - after transaction completion
+22:36:01,218 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+22:36:01,218 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+22:36:01,234 DEBUG SessionImpl:422 - after transaction completion
+22:36:01,234 DEBUG SessionImpl:273 - closing session
+22:36:01,234 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
+22:36:01,234 DEBUG SessionImpl:220 - opened session at timestamp: 11817669612
+22:36:01,234 DEBUG JDBCTransaction:54 - begin
+22:36:01,234 DEBUG ConnectionManager:421 - opening JDBC connection
+22:36:01,234 DEBUG JDBCTransaction:59 - current autocommit status: false
+22:36:01,234 DEBUG JDBCContext:210 - after transaction begin
+22:36:01,234 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:36:01,234 DEBUG QueryPlanCache:76 - located HQL query plan in cache (from Service)
+22:36:01,234 DEBUG HQLQueryPlan:150 - find: from Service
+22:36:01,250 DEBUG QueryParameters:277 - named parameters: {}
+22:36:01,250 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+22:36:01,250 DEBUG SQL:401 - 
+    select
+        service0_.id as id0_,
+        service0_.libelle as libelle0_,
+        service0_.interlocuteur as interloc3_0_ 
+    from
+        Services service0_
+22:36:01,250 DEBUG AbstractBatcher:484 - preparing statement
+22:36:01,250 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+22:36:01,250 DEBUG Loader:694 - processing result set
+22:36:01,250 DEBUG Loader:721 - done processing result set (0 rows)
+22:36:01,250 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+22:36:01,250 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+22:36:01,250 DEBUG AbstractBatcher:533 - closing statement
+22:36:01,250 DEBUG Loader:851 - total objects hydrated: 0
+22:36:01,250 DEBUG StatefulPersistenceContext:787 - initializing non-lazy collections
+22:36:01,250 DEBUG SessionImpl:273 - closing session
+22:36:01,250 DEBUG ConnectionManager:380 - performing cleanup
+22:36:01,250 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+06:11:59,595 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:11:59,603 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:11:59,604 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:11:59,607 DEBUG BasicTypeRegistry:148 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6f9550a8
+06:11:59,610 DEBUG BasicTypeRegistry:148 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@38a0e9d7
+06:11:59,611 DEBUG BasicTypeRegistry:148 - Adding type registration yes_no -> org.hibernate.type.YesNoType@27578fd9
+06:11:59,617 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:11:59,617 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:11:59,618 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7e270dad
+06:11:59,620 DEBUG BasicTypeRegistry:148 - Adding type registration character -> org.hibernate.type.CharacterType@5214cda3
+06:11:59,621 DEBUG BasicTypeRegistry:148 - Adding type registration char -> org.hibernate.type.CharacterType@5214cda3
+06:11:59,622 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5214cda3
+06:11:59,626 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:11:59,627 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:11:59,632 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@42e653a1
+06:11:59,636 DEBUG BasicTypeRegistry:148 - Adding type registration integer -> org.hibernate.type.IntegerType@625e068
+06:11:59,637 DEBUG BasicTypeRegistry:148 - Adding type registration int -> org.hibernate.type.IntegerType@625e068
+06:11:59,637 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@625e068
+06:11:59,642 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:11:59,642 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:11:59,643 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3068f00
+06:11:59,647 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:11:59,648 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:11:59,648 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c888fc9
+06:11:59,652 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:11:59,652 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:11:59,653 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4bbc7636
+06:11:59,658 DEBUG BasicTypeRegistry:148 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@25644679
+06:11:59,658 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@25644679
+06:11:59,662 DEBUG BasicTypeRegistry:148 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@46585e93
+06:11:59,663 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@46585e93
+06:11:59,665 DEBUG BasicTypeRegistry:148 - Adding type registration string -> org.hibernate.type.StringType@45590b70
+06:11:59,666 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.String -> org.hibernate.type.StringType@45590b70
+06:11:59,668 DEBUG BasicTypeRegistry:148 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@70d04b77
+06:11:59,670 DEBUG BasicTypeRegistry:148 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4282c39f
+06:11:59,673 DEBUG BasicTypeRegistry:148 - Adding type registration url -> org.hibernate.type.UrlType@2f616fcf
+06:11:59,673 DEBUG BasicTypeRegistry:148 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@2f616fcf
+06:11:59,678 DEBUG BasicTypeRegistry:148 - Adding type registration date -> org.hibernate.type.DateType@5f02b4b
+06:11:59,679 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5f02b4b
+06:11:59,685 DEBUG BasicTypeRegistry:148 - Adding type registration time -> org.hibernate.type.TimeType@b6bb0d4
+06:11:59,685 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b6bb0d4
+06:11:59,689 DEBUG BasicTypeRegistry:148 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:11:59,690 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:11:59,690 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a5fe968
+06:11:59,693 DEBUG BasicTypeRegistry:148 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@73cd1e4e
+06:11:59,696 DEBUG BasicTypeRegistry:148 - Adding type registration calendar -> org.hibernate.type.CalendarType@27c5e87
+06:11:59,697 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@27c5e87
+06:11:59,697 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@27c5e87
+06:11:59,699 DEBUG BasicTypeRegistry:148 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@296cb515
+06:11:59,702 DEBUG BasicTypeRegistry:148 - Adding type registration locale -> org.hibernate.type.LocaleType@5d1d9371
+06:11:59,702 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5d1d9371
+06:11:59,705 DEBUG BasicTypeRegistry:148 - Adding type registration currency -> org.hibernate.type.CurrencyType@5562fb33
+06:11:59,705 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5562fb33
+06:11:59,708 DEBUG BasicTypeRegistry:148 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a06642
+06:11:59,708 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a06642
+06:11:59,711 DEBUG BasicTypeRegistry:148 - Adding type registration class -> org.hibernate.type.ClassType@132b1b6c
+06:11:59,711 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@132b1b6c
+06:11:59,715 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@652f5047
+06:11:59,716 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@652f5047
+06:11:59,717 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5e98ba6f
+06:11:59,719 DEBUG BasicTypeRegistry:148 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@779005c4
+06:11:59,722 DEBUG BasicTypeRegistry:148 - Adding type registration binary -> org.hibernate.type.BinaryType@282a170d
+06:11:59,723 DEBUG BasicTypeRegistry:148 - Adding type registration byte[] -> org.hibernate.type.BinaryType@282a170d
+06:11:59,723 DEBUG BasicTypeRegistry:148 - Adding type registration [B -> org.hibernate.type.BinaryType@282a170d
+06:11:59,726 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@9969478
+06:11:59,727 DEBUG BasicTypeRegistry:148 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@9969478
+06:11:59,728 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@9969478
+06:11:59,730 DEBUG BasicTypeRegistry:148 - Adding type registration image -> org.hibernate.type.ImageType@578cbd65
+06:11:59,734 DEBUG BasicTypeRegistry:148 - Adding type registration characters -> org.hibernate.type.CharArrayType@34e4c825
+06:11:59,734 DEBUG BasicTypeRegistry:148 - Adding type registration char[] -> org.hibernate.type.CharArrayType@34e4c825
+06:11:59,734 DEBUG BasicTypeRegistry:148 - Adding type registration [C -> org.hibernate.type.CharArrayType@34e4c825
+06:11:59,737 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@69e8c998
+06:11:59,738 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@69e8c998
+06:11:59,738 DEBUG BasicTypeRegistry:148 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@69e8c998
+06:11:59,740 DEBUG BasicTypeRegistry:148 - Adding type registration text -> org.hibernate.type.TextType@2e8923f5
+06:11:59,742 DEBUG BasicTypeRegistry:148 - Adding type registration ntext -> org.hibernate.type.NTextType@3b42c565
+06:11:59,755 DEBUG BasicTypeRegistry:148 - Adding type registration blob -> org.hibernate.type.BlobType@66c07f58
+06:11:59,755 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66c07f58
+06:11:59,756 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3f5ebf57
+06:11:59,768 DEBUG BasicTypeRegistry:148 - Adding type registration clob -> org.hibernate.type.ClobType@55da4057
+06:11:59,768 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@55da4057
+06:11:59,780 DEBUG BasicTypeRegistry:148 - Adding type registration nclob -> org.hibernate.type.NClobType@cdd8cfc
+06:11:59,781 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@cdd8cfc
+06:11:59,784 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5b606e1f
+06:11:59,788 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@564dcd29
+06:11:59,792 DEBUG BasicTypeRegistry:148 - Adding type registration serializable -> org.hibernate.type.SerializableType@514eaf86
+06:11:59,804 DEBUG BasicTypeRegistry:148 - Adding type registration object -> org.hibernate.type.ObjectType@67291453
+06:11:59,804 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@67291453
+06:11:59,806 DEBUG BasicTypeRegistry:148 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2644c9f6
+06:11:59,807 DEBUG BasicTypeRegistry:148 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6e27491a
+06:11:59,807 DEBUG BasicTypeRegistry:148 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@55308275
+06:11:59,808 DEBUG BasicTypeRegistry:148 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@63c4fb04
+06:11:59,809 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@193bf6c8
+06:11:59,809 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2fc6d169
+06:11:59,810 DEBUG BasicTypeRegistry:148 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@25de5d00
+06:11:59,810 DEBUG BasicTypeRegistry:148 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@29abbe6c
+06:11:59,882  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+06:11:59,905  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+06:11:59,912  INFO Environment:239 - HHH000206: hibernate.properties not found
+06:11:59,917  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+06:11:59,964 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+06:11:59,966 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+06:11:59,970 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+06:11:59,970 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+06:11:59,975 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+06:11:59,977 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+06:11:59,982 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+06:11:59,984 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+06:11:59,987 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+06:11:59,989 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+06:11:59,991 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+06:11:59,992 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+06:11:59,995 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+06:11:59,999 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+06:12:00,002 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+06:12:00,010  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+06:12:00,011  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+06:12:00,241 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+06:12:00,242  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+06:12:00,243 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+06:12:00,245 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+06:12:00,328 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+06:12:00,329 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost/mabase
+06:12:00,330 DEBUG Configuration:1888 - hibernate.connection.username=root
+06:12:00,330 DEBUG Configuration:1888 - hibernate.connection.password=
+06:12:00,331 DEBUG Configuration:1888 - dialect=org.hibernate.dialect.MySQLDialect
+06:12:00,331 DEBUG Configuration:1888 - hibernate.c3p0.min_size=5
+06:12:00,338 DEBUG Configuration:1888 - hibernate.c3p0.max_size=20
+06:12:00,338 DEBUG Configuration:1888 - hibernate.c3p0.timeout=300
+06:12:00,339 DEBUG Configuration:1888 - hibernate.c3p0.max_statements=50
+06:12:00,339 DEBUG Configuration:1888 - hibernate.c3p0.idle_test_period=3000
+06:12:00,340 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=update
+06:12:00,340 DEBUG Configuration:1888 - show_sql=true
+06:12:00,341 DEBUG Configuration:1888 - format_sql=true
+06:12:00,342 DEBUG Configuration:2107 - Session-factory config [null] named resource [igpde/gestion/domaine/Service.hbm.xml] for mapping
+06:12:00,343  INFO Configuration:718 - HHH000221: Reading mappings from resource: igpde/gestion/domaine/Service.hbm.xml
+06:12:00,434 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [file:///C:/workspace/TP1_Service/hibernate-mapping-3.0.dtd]
+06:12:00,557  INFO Configuration:2067 - HHH000041: Configured SessionFactory: null
+06:12:00,558 DEBUG Configuration:2068 - Properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.c3p0.max_statements=50, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.7, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, user.name=zameddy, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=igpde.gestion.tests.Test, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost/mabase, user.language=fr, java.specification.vendor=Oracle Corporation, hibernate.c3p0.max_size=20, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64}
+06:12:00,598 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+06:12:00,688 DEBUG Configuration:1728 - Preparing to build session factory with filters : {}
+06:12:00,751 DEBUG Configuration:3409 - Processing hbm.xml files
+06:12:00,788 DEBUG HbmBinder:350 - Mapping class: igpde.gestion.domaine.Service -> Services
+06:12:00,815 DEBUG HbmBinder:1350 - Mapped property: id -> id
+06:12:00,831 DEBUG HbmBinder:1350 - Mapped property: libelle -> libelle
+06:12:00,832 DEBUG HbmBinder:1350 - Mapped property: interlocuteur -> interlocuteur
+06:12:00,833 DEBUG Configuration:3439 - Process annotated classes
+06:12:00,836 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+06:12:00,838 DEBUG Configuration:1578 - Processing extends queue
+06:12:00,839 DEBUG Configuration:1636 - Processing extends queue
+06:12:00,839 DEBUG Configuration:1581 - Processing collection mappings
+06:12:00,839 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+06:12:00,839 DEBUG Configuration:1599 - Processing association property references
+06:12:00,839 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+06:12:00,840 DEBUG Configuration:1622 - Processing foreign key constraints
+06:12:00,865  WARN ConnectionProviderInitiator:201 - HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+06:12:00,869  INFO DriverManagerConnectionProviderImpl:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+06:12:00,880  INFO DriverManagerConnectionProviderImpl:130 - HHH000115: Hibernate connection pool size: 20
+06:12:00,881  INFO DriverManagerConnectionProviderImpl:133 - HHH000006: Autocommit mode: false
+06:12:00,882  INFO DriverManagerConnectionProviderImpl:147 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/mabase]
+06:12:00,882  INFO DriverManagerConnectionProviderImpl:150 - HHH000046: Connection properties: {user=root, password=}
+06:12:00,957 DEBUG DriverManagerConnectionProviderImpl:192 - Opening new JDBC connection
+06:12:01,541 DEBUG DriverManagerConnectionProviderImpl:202 - Created connection to: jdbc:mysql://localhost/mabase, Isolation Level: 4
+06:12:01,543 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.5.8-log
+      major : 5
+      minor : 5
+06:12:01,544 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.5 ( $Date: 2007-03-01 00:01:06 +0100 (Thu, 01 Mar 2007) $, $Revision: 6329 $ )
+      major : 5
+      minor : 0
+06:12:01,544 DEBUG JdbcServicesImpl:133 - JDBC version : 3.0
+06:12:01,640  INFO Dialect:127 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+06:12:01,684  INFO LobCreatorBuilder:94 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+06:12:01,737 DEBUG SettingsFactory:113 - Automatic flush during beforeCompletion(): disabled
+06:12:01,737 DEBUG SettingsFactory:119 - Automatic session close at end of transaction: disabled
+06:12:01,740 DEBUG SettingsFactory:130 - JDBC batch size: 15
+06:12:01,741 DEBUG SettingsFactory:136 - JDBC batch updates for versioned data: disabled
+06:12:01,741 DEBUG SettingsFactory:146 - Scrollable result sets: enabled
+06:12:01,742 DEBUG SettingsFactory:152 - Wrap result sets: disabled
+06:12:01,742 DEBUG SettingsFactory:158 - JDBC3 getGeneratedKeys(): enabled
+06:12:01,743 DEBUG SettingsFactory:170 - multi-tenancy strategy : NONE
+06:12:01,744 DEBUG SettingsFactory:176 - Connection release mode: auto
+06:12:01,744  INFO TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+06:12:01,754 DEBUG SettingsFactory:212 - Maximum outer join fetch depth: 2
+06:12:01,755 DEBUG SettingsFactory:218 - Default batch fetch size: 1
+06:12:01,756 DEBUG SettingsFactory:224 - Generate SQL with comments: disabled
+06:12:01,757 DEBUG SettingsFactory:230 - Order SQL updates by primary key: disabled
+06:12:01,758 DEBUG SettingsFactory:236 - Order SQL inserts for batching: disabled
+06:12:01,758 DEBUG SettingsFactory:508 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+06:12:01,766  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+06:12:01,767 DEBUG SettingsFactory:246 - Query language substitutions: {}
+06:12:01,767 DEBUG SettingsFactory:252 - JPA-QL strict compliance: disabled
+06:12:01,768 DEBUG SettingsFactory:260 - Second-level cache: enabled
+06:12:01,768 DEBUG SettingsFactory:266 - Query cache: disabled
+06:12:01,769 DEBUG SettingsFactory:448 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+06:12:01,771 DEBUG SettingsFactory:458 - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+06:12:01,772 DEBUG SettingsFactory:281 - Optimize cache for minimal puts: disabled
+06:12:01,772 DEBUG SettingsFactory:296 - Structured second-level cache entries: disabled
+06:12:01,773 DEBUG SettingsFactory:305 - Statistics: disabled
+06:12:01,775 DEBUG SettingsFactory:311 - Deleted entity synthetic identifier rollback: disabled
+06:12:01,777 DEBUG SettingsFactory:335 - Default entity-mode: pojo
+06:12:01,777 DEBUG SettingsFactory:341 - Named query checking : enabled
+06:12:01,778 DEBUG SettingsFactory:347 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+06:12:01,778 DEBUG SettingsFactory:365 - Allow initialization of lazy state outside session : : disabled
+06:12:01,813 DEBUG SessionFactoryImpl:225 - Building session factory
+06:12:01,840 DEBUG SessionFactoryImpl:277 - Session factory constructed with filter configurations : {}
+06:12:01,840 DEBUG SessionFactoryImpl:278 - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, hibernate.c3p0.max_statements=50, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=Cp1252, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=zameddy, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.java.command=igpde.gestion.tests.Test, hibernate.connection.url=jdbc:mysql://localhost/mabase, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=fr, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3p0.max_size=20, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQLDialect}
+06:12:01,867 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+06:14:14,320 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:14:14,322 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:14:14,323 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:14:14,325 DEBUG BasicTypeRegistry:148 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6f9550a8
+06:14:14,329 DEBUG BasicTypeRegistry:148 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@38a0e9d7
+06:14:14,331 DEBUG BasicTypeRegistry:148 - Adding type registration yes_no -> org.hibernate.type.YesNoType@27578fd9
+06:14:14,336 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:14:14,336 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:14:14,337 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7e270dad
+06:14:14,340 DEBUG BasicTypeRegistry:148 - Adding type registration character -> org.hibernate.type.CharacterType@5214cda3
+06:14:14,340 DEBUG BasicTypeRegistry:148 - Adding type registration char -> org.hibernate.type.CharacterType@5214cda3
+06:14:14,341 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5214cda3
+06:14:14,345 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:14:14,346 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:14:14,351 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@42e653a1
+06:14:14,355 DEBUG BasicTypeRegistry:148 - Adding type registration integer -> org.hibernate.type.IntegerType@625e068
+06:14:14,355 DEBUG BasicTypeRegistry:148 - Adding type registration int -> org.hibernate.type.IntegerType@625e068
+06:14:14,356 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@625e068
+06:14:14,361 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:14:14,361 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:14:14,362 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3068f00
+06:14:14,366 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:14:14,367 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:14:14,367 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c888fc9
+06:14:14,371 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:14:14,371 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:14:14,372 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4bbc7636
+06:14:14,377 DEBUG BasicTypeRegistry:148 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@25644679
+06:14:14,378 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@25644679
+06:14:14,382 DEBUG BasicTypeRegistry:148 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@46585e93
+06:14:14,382 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@46585e93
+06:14:14,385 DEBUG BasicTypeRegistry:148 - Adding type registration string -> org.hibernate.type.StringType@45590b70
+06:14:14,385 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.String -> org.hibernate.type.StringType@45590b70
+06:14:14,388 DEBUG BasicTypeRegistry:148 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@70d04b77
+06:14:14,390 DEBUG BasicTypeRegistry:148 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4282c39f
+06:14:14,393 DEBUG BasicTypeRegistry:148 - Adding type registration url -> org.hibernate.type.UrlType@2f616fcf
+06:14:14,393 DEBUG BasicTypeRegistry:148 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@2f616fcf
+06:14:14,399 DEBUG BasicTypeRegistry:148 - Adding type registration date -> org.hibernate.type.DateType@5f02b4b
+06:14:14,400 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5f02b4b
+06:14:14,404 DEBUG BasicTypeRegistry:148 - Adding type registration time -> org.hibernate.type.TimeType@b6bb0d4
+06:14:14,404 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b6bb0d4
+06:14:14,408 DEBUG BasicTypeRegistry:148 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:14:14,409 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:14:14,409 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a5fe968
+06:14:14,412 DEBUG BasicTypeRegistry:148 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@73cd1e4e
+06:14:14,415 DEBUG BasicTypeRegistry:148 - Adding type registration calendar -> org.hibernate.type.CalendarType@27c5e87
+06:14:14,416 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@27c5e87
+06:14:14,416 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@27c5e87
+06:14:14,418 DEBUG BasicTypeRegistry:148 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@296cb515
+06:14:14,421 DEBUG BasicTypeRegistry:148 - Adding type registration locale -> org.hibernate.type.LocaleType@5d1d9371
+06:14:14,422 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5d1d9371
+06:14:14,425 DEBUG BasicTypeRegistry:148 - Adding type registration currency -> org.hibernate.type.CurrencyType@5562fb33
+06:14:14,425 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5562fb33
+06:14:14,428 DEBUG BasicTypeRegistry:148 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a06642
+06:14:14,429 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a06642
+06:14:14,432 DEBUG BasicTypeRegistry:148 - Adding type registration class -> org.hibernate.type.ClassType@132b1b6c
+06:14:14,432 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@132b1b6c
+06:14:14,436 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@652f5047
+06:14:14,437 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@652f5047
+06:14:14,438 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5e98ba6f
+06:14:14,440 DEBUG BasicTypeRegistry:148 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@779005c4
+06:14:14,444 DEBUG BasicTypeRegistry:148 - Adding type registration binary -> org.hibernate.type.BinaryType@282a170d
+06:14:14,444 DEBUG BasicTypeRegistry:148 - Adding type registration byte[] -> org.hibernate.type.BinaryType@282a170d
+06:14:14,444 DEBUG BasicTypeRegistry:148 - Adding type registration [B -> org.hibernate.type.BinaryType@282a170d
+06:14:14,447 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@9969478
+06:14:14,448 DEBUG BasicTypeRegistry:148 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@9969478
+06:14:14,448 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@9969478
+06:14:14,451 DEBUG BasicTypeRegistry:148 - Adding type registration image -> org.hibernate.type.ImageType@578cbd65
+06:14:14,454 DEBUG BasicTypeRegistry:148 - Adding type registration characters -> org.hibernate.type.CharArrayType@34e4c825
+06:14:14,455 DEBUG BasicTypeRegistry:148 - Adding type registration char[] -> org.hibernate.type.CharArrayType@34e4c825
+06:14:14,455 DEBUG BasicTypeRegistry:148 - Adding type registration [C -> org.hibernate.type.CharArrayType@34e4c825
+06:14:14,458 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@69e8c998
+06:14:14,459 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@69e8c998
+06:14:14,459 DEBUG BasicTypeRegistry:148 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@69e8c998
+06:14:14,461 DEBUG BasicTypeRegistry:148 - Adding type registration text -> org.hibernate.type.TextType@2e8923f5
+06:14:14,463 DEBUG BasicTypeRegistry:148 - Adding type registration ntext -> org.hibernate.type.NTextType@3b42c565
+06:14:14,476 DEBUG BasicTypeRegistry:148 - Adding type registration blob -> org.hibernate.type.BlobType@66c07f58
+06:14:14,477 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66c07f58
+06:14:14,478 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3f5ebf57
+06:14:14,490 DEBUG BasicTypeRegistry:148 - Adding type registration clob -> org.hibernate.type.ClobType@55da4057
+06:14:14,491 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@55da4057
+06:14:14,504 DEBUG BasicTypeRegistry:148 - Adding type registration nclob -> org.hibernate.type.NClobType@3aeacb9c
+06:14:14,504 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3aeacb9c
+06:14:14,506 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4b0787bc
+06:14:14,507 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ecf7607
+06:14:14,510 DEBUG BasicTypeRegistry:148 - Adding type registration serializable -> org.hibernate.type.SerializableType@71811419
+06:14:14,517 DEBUG BasicTypeRegistry:148 - Adding type registration object -> org.hibernate.type.ObjectType@521ed8c3
+06:14:14,518 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@521ed8c3
+06:14:14,519 DEBUG BasicTypeRegistry:148 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7d582674
+06:14:14,520 DEBUG BasicTypeRegistry:148 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2644c9f6
+06:14:14,520 DEBUG BasicTypeRegistry:148 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6e27491a
+06:14:14,520 DEBUG BasicTypeRegistry:148 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@55308275
+06:14:14,521 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@63c4fb04
+06:14:14,521 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@193bf6c8
+06:14:14,522 DEBUG BasicTypeRegistry:148 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2fc6d169
+06:14:14,522 DEBUG BasicTypeRegistry:148 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@25de5d00
+06:14:14,573  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+06:14:14,598  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+06:14:14,628  INFO Environment:239 - HHH000206: hibernate.properties not found
+06:14:14,636  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+06:14:14,681 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+06:14:14,683 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+06:14:14,687 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+06:14:14,688 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+06:14:14,692 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+06:14:14,694 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+06:14:14,700 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+06:14:14,702 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+06:14:14,707 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+06:14:14,709 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+06:14:14,711 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+06:14:14,713 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+06:14:14,715 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+06:14:14,717 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+06:14:14,720 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+06:14:14,728  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+06:14:14,729  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+06:14:14,894 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+06:14:14,895  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+06:14:14,895 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+06:14:14,897 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+06:14:14,970 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+06:14:14,971 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost/mabase
+06:14:14,971 DEBUG Configuration:1888 - hibernate.connection.username=root
+06:14:14,972 DEBUG Configuration:1888 - hibernate.connection.password=
+06:14:14,972 DEBUG Configuration:1888 - dialect=org.hibernate.dialect.MySQLDialect
+06:14:14,973 DEBUG Configuration:1888 - hibernate.c3p0.min_size=5
+06:14:14,973 DEBUG Configuration:1888 - hibernate.c3p0.max_size=20
+06:14:14,974 DEBUG Configuration:1888 - hibernate.c3p0.timeout=300
+06:14:14,974 DEBUG Configuration:1888 - hibernate.c3p0.max_statements=50
+06:14:14,975 DEBUG Configuration:1888 - hibernate.c3p0.idle_test_period=3000
+06:14:14,975 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=update
+06:14:14,976 DEBUG Configuration:1888 - show_sql=true
+06:14:14,976 DEBUG Configuration:1888 - format_sql=true
+06:14:14,977 DEBUG Configuration:2107 - Session-factory config [null] named resource [igpde/gestion/domaine/Service.hbm.xml] for mapping
+06:14:14,978  INFO Configuration:718 - HHH000221: Reading mappings from resource: igpde/gestion/domaine/Service.hbm.xml
+06:14:15,088 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [file:///C:/workspace/TP1_Service/hibernate-mapping-3.0.dtd]
+06:14:15,241  INFO Configuration:2067 - HHH000041: Configured SessionFactory: null
+06:14:15,243 DEBUG Configuration:2068 - Properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.c3p0.max_statements=50, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.7, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, user.name=zameddy, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=igpde.gestion.tests.Test, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost/mabase, user.language=fr, java.specification.vendor=Oracle Corporation, hibernate.c3p0.max_size=20, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64}
+06:14:15,287 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+06:14:15,392 DEBUG Configuration:1728 - Preparing to build session factory with filters : {}
+06:14:15,454 DEBUG Configuration:3409 - Processing hbm.xml files
+06:14:15,490 DEBUG HbmBinder:350 - Mapping class: igpde.gestion.domaine.Service -> Services
+06:14:15,518 DEBUG HbmBinder:1350 - Mapped property: id -> id
+06:14:15,532 DEBUG HbmBinder:1350 - Mapped property: libelle -> libelle
+06:14:15,533 DEBUG HbmBinder:1350 - Mapped property: interlocuteur -> interlocuteur
+06:14:15,533 DEBUG Configuration:3439 - Process annotated classes
+06:14:15,537 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+06:14:15,539 DEBUG Configuration:1578 - Processing extends queue
+06:14:15,539 DEBUG Configuration:1636 - Processing extends queue
+06:14:15,539 DEBUG Configuration:1581 - Processing collection mappings
+06:14:15,539 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+06:14:15,540 DEBUG Configuration:1599 - Processing association property references
+06:14:15,540 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+06:14:15,540 DEBUG Configuration:1622 - Processing foreign key constraints
+06:14:15,566  WARN ConnectionProviderInitiator:201 - HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+06:14:15,570  INFO DriverManagerConnectionProviderImpl:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+06:14:15,582  INFO DriverManagerConnectionProviderImpl:130 - HHH000115: Hibernate connection pool size: 20
+06:14:15,583  INFO DriverManagerConnectionProviderImpl:133 - HHH000006: Autocommit mode: false
+06:14:15,584  INFO DriverManagerConnectionProviderImpl:147 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/mabase]
+06:14:15,584  INFO DriverManagerConnectionProviderImpl:150 - HHH000046: Connection properties: {user=root, password=}
+06:14:15,685 DEBUG DriverManagerConnectionProviderImpl:192 - Opening new JDBC connection
+06:14:16,390 DEBUG DriverManagerConnectionProviderImpl:202 - Created connection to: jdbc:mysql://localhost/mabase, Isolation Level: 4
+06:14:16,391 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.5.8-log
+      major : 5
+      minor : 5
+06:14:16,392 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.5 ( $Date: 2007-03-01 00:01:06 +0100 (Thu, 01 Mar 2007) $, $Revision: 6329 $ )
+      major : 5
+      minor : 0
+06:14:16,392 DEBUG JdbcServicesImpl:133 - JDBC version : 3.0
+06:14:16,461  INFO Dialect:127 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+06:14:16,512  INFO LobCreatorBuilder:94 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+06:14:16,579 DEBUG SettingsFactory:113 - Automatic flush during beforeCompletion(): disabled
+06:14:16,580 DEBUG SettingsFactory:119 - Automatic session close at end of transaction: disabled
+06:14:16,580 DEBUG SettingsFactory:130 - JDBC batch size: 15
+06:14:16,581 DEBUG SettingsFactory:136 - JDBC batch updates for versioned data: disabled
+06:14:16,584 DEBUG SettingsFactory:146 - Scrollable result sets: enabled
+06:14:16,584 DEBUG SettingsFactory:152 - Wrap result sets: disabled
+06:14:16,585 DEBUG SettingsFactory:158 - JDBC3 getGeneratedKeys(): enabled
+06:14:16,585 DEBUG SettingsFactory:170 - multi-tenancy strategy : NONE
+06:14:16,586 DEBUG SettingsFactory:176 - Connection release mode: auto
+06:14:16,587  INFO TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+06:14:16,598 DEBUG SettingsFactory:212 - Maximum outer join fetch depth: 2
+06:14:16,599 DEBUG SettingsFactory:218 - Default batch fetch size: 1
+06:14:16,599 DEBUG SettingsFactory:224 - Generate SQL with comments: disabled
+06:14:16,600 DEBUG SettingsFactory:230 - Order SQL updates by primary key: disabled
+06:14:16,601 DEBUG SettingsFactory:236 - Order SQL inserts for batching: disabled
+06:14:16,603 DEBUG SettingsFactory:508 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+06:14:16,612  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+06:14:16,613 DEBUG SettingsFactory:246 - Query language substitutions: {}
+06:14:16,613 DEBUG SettingsFactory:252 - JPA-QL strict compliance: disabled
+06:14:16,614 DEBUG SettingsFactory:260 - Second-level cache: enabled
+06:14:16,614 DEBUG SettingsFactory:266 - Query cache: disabled
+06:14:16,615 DEBUG SettingsFactory:448 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+06:14:16,618 DEBUG SettingsFactory:458 - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+06:14:16,619 DEBUG SettingsFactory:281 - Optimize cache for minimal puts: disabled
+06:14:16,619 DEBUG SettingsFactory:296 - Structured second-level cache entries: disabled
+06:14:16,620 DEBUG SettingsFactory:305 - Statistics: disabled
+06:14:16,620 DEBUG SettingsFactory:311 - Deleted entity synthetic identifier rollback: disabled
+06:14:16,621 DEBUG SettingsFactory:335 - Default entity-mode: pojo
+06:14:16,622 DEBUG SettingsFactory:341 - Named query checking : enabled
+06:14:16,624 DEBUG SettingsFactory:347 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+06:14:16,625 DEBUG SettingsFactory:365 - Allow initialization of lazy state outside session : : disabled
+06:14:16,667 DEBUG SessionFactoryImpl:225 - Building session factory
+06:14:16,700 DEBUG SessionFactoryImpl:277 - Session factory constructed with filter configurations : {}
+06:14:16,701 DEBUG SessionFactoryImpl:278 - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, hibernate.c3p0.max_statements=50, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=Cp1252, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=zameddy, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.java.command=igpde.gestion.tests.Test, hibernate.connection.url=jdbc:mysql://localhost/mabase, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=fr, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3p0.max_size=20, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQLDialect}
+06:14:16,732 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+06:19:52,360 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:19:52,413 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:19:52,414 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3e1876d4
+06:19:52,417 DEBUG BasicTypeRegistry:148 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6f9550a8
+06:19:52,422 DEBUG BasicTypeRegistry:148 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@38a0e9d7
+06:19:52,424 DEBUG BasicTypeRegistry:148 - Adding type registration yes_no -> org.hibernate.type.YesNoType@27578fd9
+06:19:52,433 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:19:52,434 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7e270dad
+06:19:52,434 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7e270dad
+06:19:52,438 DEBUG BasicTypeRegistry:148 - Adding type registration character -> org.hibernate.type.CharacterType@5214cda3
+06:19:52,439 DEBUG BasicTypeRegistry:148 - Adding type registration char -> org.hibernate.type.CharacterType@5214cda3
+06:19:52,440 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5214cda3
+06:19:52,447 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:19:52,448 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@42e653a1
+06:19:52,454 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@42e653a1
+06:19:52,458 DEBUG BasicTypeRegistry:148 - Adding type registration integer -> org.hibernate.type.IntegerType@625e068
+06:19:52,459 DEBUG BasicTypeRegistry:148 - Adding type registration int -> org.hibernate.type.IntegerType@625e068
+06:19:52,459 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@625e068
+06:19:52,467 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:19:52,467 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@3068f00
+06:19:52,468 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3068f00
+06:19:52,474 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:19:52,475 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@2c888fc9
+06:19:52,476 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c888fc9
+06:19:52,480 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:19:52,481 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@4bbc7636
+06:19:52,481 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4bbc7636
+06:19:52,487 DEBUG BasicTypeRegistry:148 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@25644679
+06:19:52,488 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@25644679
+06:19:52,492 DEBUG BasicTypeRegistry:148 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@46585e93
+06:19:52,493 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@46585e93
+06:19:52,497 DEBUG BasicTypeRegistry:148 - Adding type registration string -> org.hibernate.type.StringType@45590b70
+06:19:52,497 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.String -> org.hibernate.type.StringType@45590b70
+06:19:52,500 DEBUG BasicTypeRegistry:148 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@70d04b77
+06:19:52,502 DEBUG BasicTypeRegistry:148 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4282c39f
+06:19:52,505 DEBUG BasicTypeRegistry:148 - Adding type registration url -> org.hibernate.type.UrlType@2f616fcf
+06:19:52,506 DEBUG BasicTypeRegistry:148 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@2f616fcf
+06:19:52,511 DEBUG BasicTypeRegistry:148 - Adding type registration date -> org.hibernate.type.DateType@5f02b4b
+06:19:52,512 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5f02b4b
+06:19:52,516 DEBUG BasicTypeRegistry:148 - Adding type registration time -> org.hibernate.type.TimeType@b6bb0d4
+06:19:52,517 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b6bb0d4
+06:19:52,521 DEBUG BasicTypeRegistry:148 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:19:52,521 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a5fe968
+06:19:52,522 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a5fe968
+06:19:52,525 DEBUG BasicTypeRegistry:148 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@73cd1e4e
+06:19:52,528 DEBUG BasicTypeRegistry:148 - Adding type registration calendar -> org.hibernate.type.CalendarType@27c5e87
+06:19:52,528 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@27c5e87
+06:19:52,529 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@27c5e87
+06:19:52,531 DEBUG BasicTypeRegistry:148 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@296cb515
+06:19:52,535 DEBUG BasicTypeRegistry:148 - Adding type registration locale -> org.hibernate.type.LocaleType@5d1d9371
+06:19:52,535 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5d1d9371
+06:19:52,538 DEBUG BasicTypeRegistry:148 - Adding type registration currency -> org.hibernate.type.CurrencyType@5562fb33
+06:19:52,539 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5562fb33
+06:19:52,541 DEBUG BasicTypeRegistry:148 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a06642
+06:19:52,542 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a06642
+06:19:52,544 DEBUG BasicTypeRegistry:148 - Adding type registration class -> org.hibernate.type.ClassType@132b1b6c
+06:19:52,545 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@132b1b6c
+06:19:52,549 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@652f5047
+06:19:52,550 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@652f5047
+06:19:52,551 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5e98ba6f
+06:19:52,553 DEBUG BasicTypeRegistry:148 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@779005c4
+06:19:52,557 DEBUG BasicTypeRegistry:148 - Adding type registration binary -> org.hibernate.type.BinaryType@282a170d
+06:19:52,557 DEBUG BasicTypeRegistry:148 - Adding type registration byte[] -> org.hibernate.type.BinaryType@282a170d
+06:19:52,558 DEBUG BasicTypeRegistry:148 - Adding type registration [B -> org.hibernate.type.BinaryType@282a170d
+06:19:52,560 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@9969478
+06:19:52,561 DEBUG BasicTypeRegistry:148 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@9969478
+06:19:52,561 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@9969478
+06:19:52,564 DEBUG BasicTypeRegistry:148 - Adding type registration image -> org.hibernate.type.ImageType@578cbd65
+06:19:52,567 DEBUG BasicTypeRegistry:148 - Adding type registration characters -> org.hibernate.type.CharArrayType@34e4c825
+06:19:52,568 DEBUG BasicTypeRegistry:148 - Adding type registration char[] -> org.hibernate.type.CharArrayType@34e4c825
+06:19:52,568 DEBUG BasicTypeRegistry:148 - Adding type registration [C -> org.hibernate.type.CharArrayType@34e4c825
+06:19:52,571 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@69e8c998
+06:19:52,572 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@69e8c998
+06:19:52,572 DEBUG BasicTypeRegistry:148 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@69e8c998
+06:19:52,574 DEBUG BasicTypeRegistry:148 - Adding type registration text -> org.hibernate.type.TextType@2e8923f5
+06:19:52,576 DEBUG BasicTypeRegistry:148 - Adding type registration ntext -> org.hibernate.type.NTextType@3b42c565
+06:19:52,590 DEBUG BasicTypeRegistry:148 - Adding type registration blob -> org.hibernate.type.BlobType@66c07f58
+06:19:52,591 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66c07f58
+06:19:52,592 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3f5ebf57
+06:19:52,604 DEBUG BasicTypeRegistry:148 - Adding type registration clob -> org.hibernate.type.ClobType@55da4057
+06:19:52,605 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@55da4057
+06:19:52,616 DEBUG BasicTypeRegistry:148 - Adding type registration nclob -> org.hibernate.type.NClobType@3aeacb9c
+06:19:52,617 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3aeacb9c
+06:19:52,618 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4b0787bc
+06:19:52,619 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ecf7607
+06:19:52,623 DEBUG BasicTypeRegistry:148 - Adding type registration serializable -> org.hibernate.type.SerializableType@71811419
+06:19:52,635 DEBUG BasicTypeRegistry:148 - Adding type registration object -> org.hibernate.type.ObjectType@521ed8c3
+06:19:52,635 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@521ed8c3
+06:19:52,638 DEBUG BasicTypeRegistry:148 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7d582674
+06:19:52,638 DEBUG BasicTypeRegistry:148 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2644c9f6
+06:19:52,639 DEBUG BasicTypeRegistry:148 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6e27491a
+06:19:52,639 DEBUG BasicTypeRegistry:148 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@55308275
+06:19:52,639 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@63c4fb04
+06:19:52,640 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@193bf6c8
+06:19:52,640 DEBUG BasicTypeRegistry:148 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2fc6d169
+06:19:52,641 DEBUG BasicTypeRegistry:148 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@25de5d00
+06:19:52,702  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+06:19:52,722  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+06:19:52,727  INFO Environment:239 - HHH000206: hibernate.properties not found
+06:19:52,731  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+06:19:52,762 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+06:19:52,764 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+06:19:52,766 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+06:19:52,767 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+06:19:52,770 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+06:19:52,771 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+06:19:52,774 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+06:19:52,776 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+06:19:52,778 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+06:19:52,779 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+06:19:52,781 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+06:19:52,783 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+06:19:52,785 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+06:19:52,787 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+06:19:52,789 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+06:19:52,794  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+06:19:52,794  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+06:19:52,914 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+06:19:52,914  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+06:19:52,914 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+06:19:52,916 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+06:19:52,968 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+06:19:52,968 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost/mabase
+06:19:52,969 DEBUG Configuration:1888 - hibernate.connection.username=root
+06:19:52,969 DEBUG Configuration:1888 - hibernate.connection.password=
+06:19:52,969 DEBUG Configuration:1888 - dialect=org.hibernate.dialect.MySQLDialect
+06:19:52,970 DEBUG Configuration:1888 - hibernate.c3p0.min_size=5
+06:19:52,970 DEBUG Configuration:1888 - hibernate.c3p0.max_size=20
+06:19:52,971 DEBUG Configuration:1888 - hibernate.c3p0.timeout=300
+06:19:52,971 DEBUG Configuration:1888 - hibernate.c3p0.max_statements=50
+06:19:52,971 DEBUG Configuration:1888 - hibernate.c3p0.idle_test_period=3000
+06:19:52,972 DEBUG Configuration:1888 - show_sql=true
+06:19:52,972 DEBUG Configuration:1888 - format_sql=true
+06:19:52,973 DEBUG Configuration:2107 - Session-factory config [null] named resource [igpde/gestion/domaine/Service.hbm.xml] for mapping
+06:19:52,973  INFO Configuration:718 - HHH000221: Reading mappings from resource: igpde/gestion/domaine/Service.hbm.xml
+06:19:53,068 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [file:///C:/workspace/TP1_Service/hibernate-mapping-3.0.dtd]
+06:19:53,208  INFO Configuration:2067 - HHH000041: Configured SessionFactory: null
+06:19:53,209 DEBUG Configuration:2068 - Properties: {hibernate.connection.password=, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.c3p0.max_statements=50, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.7, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, user.name=zameddy, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.java.command=igpde.gestion.tests.Test, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost/mabase, user.language=fr, java.specification.vendor=Oracle Corporation, hibernate.c3p0.max_size=20, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64}
+06:19:53,240 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+06:19:53,367 DEBUG Configuration:1728 - Preparing to build session factory with filters : {}
+06:19:53,476 DEBUG Configuration:3409 - Processing hbm.xml files
+06:19:53,526 DEBUG HbmBinder:350 - Mapping class: igpde.gestion.domaine.Service -> Services
+06:19:53,561 DEBUG HbmBinder:1350 - Mapped property: id -> id
+06:19:53,582 DEBUG HbmBinder:1350 - Mapped property: libelle -> libelle
+06:19:53,583 DEBUG HbmBinder:1350 - Mapped property: interlocuteur -> interlocuteur
+06:19:53,584 DEBUG Configuration:3439 - Process annotated classes
+06:19:53,588 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+06:19:53,591 DEBUG Configuration:1578 - Processing extends queue
+06:19:53,591 DEBUG Configuration:1636 - Processing extends queue
+06:19:53,592 DEBUG Configuration:1581 - Processing collection mappings
+06:19:53,592 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+06:19:53,592 DEBUG Configuration:1599 - Processing association property references
+06:19:53,592 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+06:19:53,593 DEBUG Configuration:1622 - Processing foreign key constraints
+06:19:53,627  WARN ConnectionProviderInitiator:201 - HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+06:19:53,633  INFO DriverManagerConnectionProviderImpl:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+06:19:53,646  INFO DriverManagerConnectionProviderImpl:130 - HHH000115: Hibernate connection pool size: 20
+06:19:53,647  INFO DriverManagerConnectionProviderImpl:133 - HHH000006: Autocommit mode: false
+06:19:53,648  INFO DriverManagerConnectionProviderImpl:147 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/mabase]
+06:19:53,649  INFO DriverManagerConnectionProviderImpl:150 - HHH000046: Connection properties: {user=root, password=}
+06:19:53,748 DEBUG DriverManagerConnectionProviderImpl:192 - Opening new JDBC connection
+06:19:54,450 DEBUG DriverManagerConnectionProviderImpl:202 - Created connection to: jdbc:mysql://localhost/mabase, Isolation Level: 4
+06:19:54,451 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.5.8-log
+      major : 5
+      minor : 5
+06:19:54,452 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.5 ( $Date: 2007-03-01 00:01:06 +0100 (Thu, 01 Mar 2007) $, $Revision: 6329 $ )
+      major : 5
+      minor : 0
+06:19:54,453 DEBUG JdbcServicesImpl:133 - JDBC version : 3.0
+06:19:54,529  INFO Dialect:127 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+06:19:54,575  INFO LobCreatorBuilder:94 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+06:19:54,638 DEBUG SettingsFactory:113 - Automatic flush during beforeCompletion(): disabled
+06:19:54,639 DEBUG SettingsFactory:119 - Automatic session close at end of transaction: disabled
+06:19:54,640 DEBUG SettingsFactory:130 - JDBC batch size: 15
+06:19:54,641 DEBUG SettingsFactory:136 - JDBC batch updates for versioned data: disabled
+06:19:54,642 DEBUG SettingsFactory:146 - Scrollable result sets: enabled
+06:19:54,642 DEBUG SettingsFactory:152 - Wrap result sets: disabled
+06:19:54,643 DEBUG SettingsFactory:158 - JDBC3 getGeneratedKeys(): enabled
+06:19:54,643 DEBUG SettingsFactory:170 - multi-tenancy strategy : NONE
+06:19:54,644 DEBUG SettingsFactory:176 - Connection release mode: auto
+06:19:54,644  INFO TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+06:19:54,655 DEBUG SettingsFactory:212 - Maximum outer join fetch depth: 2
+06:19:54,655 DEBUG SettingsFactory:218 - Default batch fetch size: 1
+06:19:54,656 DEBUG SettingsFactory:224 - Generate SQL with comments: disabled
+06:19:54,656 DEBUG SettingsFactory:230 - Order SQL updates by primary key: disabled
+06:19:54,657 DEBUG SettingsFactory:236 - Order SQL inserts for batching: disabled
+06:19:54,657 DEBUG SettingsFactory:508 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+06:19:54,666  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+06:19:54,667 DEBUG SettingsFactory:246 - Query language substitutions: {}
+06:19:54,667 DEBUG SettingsFactory:252 - JPA-QL strict compliance: disabled
+06:19:54,668 DEBUG SettingsFactory:260 - Second-level cache: enabled
+06:19:54,668 DEBUG SettingsFactory:266 - Query cache: disabled
+06:19:54,669 DEBUG SettingsFactory:448 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+06:19:54,672 DEBUG SettingsFactory:458 - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+06:19:54,673 DEBUG SettingsFactory:281 - Optimize cache for minimal puts: disabled
+06:19:54,673 DEBUG SettingsFactory:296 - Structured second-level cache entries: disabled
+06:19:54,674 DEBUG SettingsFactory:305 - Statistics: disabled
+06:19:54,674 DEBUG SettingsFactory:311 - Deleted entity synthetic identifier rollback: disabled
+06:19:54,677 DEBUG SettingsFactory:335 - Default entity-mode: pojo
+06:19:54,678 DEBUG SettingsFactory:341 - Named query checking : enabled
+06:19:54,678 DEBUG SettingsFactory:347 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+06:19:54,679 DEBUG SettingsFactory:365 - Allow initialization of lazy state outside session : : disabled
+06:19:54,720 DEBUG SessionFactoryImpl:225 - Building session factory
+06:19:54,769 DEBUG SessionFactoryImpl:277 - Session factory constructed with filter configurations : {}
+06:19:54,770 DEBUG SessionFactoryImpl:278 - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0\jre\bin, java.vm.version=21.0-b17, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=FR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\workspace\TP1_Service, java.runtime.version=1.7.0-b147, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\endorsed, os.arch=amd64, hibernate.c3p0.max_statements=50, java.io.tmpdir=C:\Users\zameddy\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.timeout=300, java.library.path=C:\Program Files\Java\jdk1.7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\zameddy, user.timezone=Europe/Paris, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, file.encoding=Cp1252, hibernate.format_sql=true, hibernate.c3p0.min_size=5, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=zameddy, java.class.path=C:\workspace\TP1_Service\bin;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.junit_3.8.2.v3_8_2_v20100427-1100\junit.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;C:\workspace\TP1_Service\libs\mysql-connector-java-5.0.5-bin.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\log4j-1.3alpha-8.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\workspace\TP1_Service\libs\jboss-logging-3.0.0.GA.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-entitymanager-4.1.10.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\workspace\Proto-Pilot-struts2-minimal-cp\WebContent\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.7.0\jre, sun.java.command=igpde.gestion.tests.Test, hibernate.connection.url=jdbc:mysql://localhost/mabase, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=fr, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3p0.max_size=20, java.vm.info=mixed mode, java.version=1.7.0, java.ext.dirs=C:\Program Files\Java\jdk1.7.0\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQLDialect}
+06:19:54,802 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
